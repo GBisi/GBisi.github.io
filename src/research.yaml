@@ -1,0 +1,43 @@
+sections:
+  - type: text
+    title: Research Interests
+    text: I am part of the <a class="cp-link" href="https://di-unipi-socc.netlify.app/">Service-Oriented, Cloud and Fog Computing (SOCC)</a> research group. My research interests include, but are not limited to, what follows.
+
+  - type: box
+    main: Orchestration of Multi-Service Applications on Cloud-Edge Continuum
+    items: 
+      - "Multi-Service Application & Microservices, Cloud-Edge Continuum, IoT Devices, Continuous Management & Continuous Reasoning, Declarative Methodologies, QoS-aware Orchestration, Monitoring of Geographically Distributed Systems."
+
+  - type: box
+    main: Management of Smart Environments
+    items: 
+      - "Declarative Frameworks for Smart Environments, Customisable Policies, Goal-oriented methodologies, Management of Contrasting Goals and Actuators Settings, Sustainable Objectives."
+  
+  - type: box
+    title: Latest Activities
+    main: Latest Publication
+    items: 
+      - Pub
+
+  - type: box
+    main: Latest Presentation
+    items: 
+      - Conf
+
+  - type: box
+    title: Prototypes
+    main: Prototypes
+    items: 
+      - Prot
+    
+  # - type: box
+  #   title: Research Projects
+  #   main: Projects
+  #   items: 
+  #     - 'Project Member, OSMWARE: hOlistic Sustainable Management of distributed softWARE systems, funded by the University of Pisa (grant agreement: PRA_2022_64). Duration: ?? - ??.'
+
+  - type: box
+    title: Other Activities
+    main: Organisator
+    items: 
+      -  Organiser of the 2023 Edition of the <a class="cp-link" href="http://pesaresiseminars.di.unipi.it/">Mauriana Pesaresi Seminar Series</a>, University of Pisa, Italy, Feb 2023 - Jun 2023.

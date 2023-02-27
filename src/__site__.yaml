@@ -1,0 +1,17 @@
+template: academic_resume_js
+title: Giuseppe Bisicchia
+copyright: 'Copyright © 2023 Giuseppe Bisicchia'
+icon: assets/icons/favicon.ico
+navbar:
+  - About: about.html
+  - Publications: publications.html
+  - Teaching: teaching.html
+  - Contacts: contacts.html
+  - _home_: GB
+pages:
+  - index
+  - about
+  - research
+  - publications
+  - teaching
+  - contacts

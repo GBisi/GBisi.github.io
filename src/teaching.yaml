@@ -1,0 +1,16 @@
+sections:
+  - type: big_box
+    main: Cloud Computing (Lab)
+    sub: '<span class="cp-highlight-text"><a class="cp-link" href="https://didattica.di.unipi.it/laurea-in-informatica/">BSc in Computer Science</a></span>, University of Pisa, Pisa, Italy.'
+    text: '<span class="cp-highlight-text">Question Time</span>: drop me an <a href="%%MAIL%%">email</a> to schedule an appointment.<br>Resources available on the <span class="cp-highlight-text">Moodle page</span>: <a class="cp-link" href="https://elearning.di.unipi.it/course/view.php?id=334">https://elearning.di.unipi.it/course/view.php?id=334</a>.'
+
+  - type: big_box
+    main: "Introduction to Computational Thinking: Scratch Laboratory (Second Course)"
+    sub: <span class="cp-highlight-text"><a class="cp-link" href="https://icfibonacci.edu.it/">I.C.S. "L. Fibonacci"</a></span>, Pisa, Italy.
+    text: Introductory course in Computational Thinking and Programming for secondary school students.
+
+  - type: box
+    main: Past courses
+    items:
+      - '<span class="cp-highlight-text">Introduction to Computational Thinking: Scratch Laboratory (First Course)</span>, <a class="cp-link" href="https://icfibonacci.edu.it/">I.C.S. "L. Fibonacci"</a>, Pisa, Italy, Dec 2022 - Feb 2023.'
+    

@@ -1,837 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Jacopo Soldani</title>
+        <title>Giuseppe Bisicchia</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="src/css/academic-resume.css">
+        <link rel="stylesheet" href="src/templates/academic_resume_js/academic-resume.css">
+        <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
+    <link href="assets/icons/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+            <script src="src/templates/academic_resume_js/obfuscation.js" defer></script>
+            <script>
+            document.addEventListener("DOMContentLoaded", function(){
+            var els = document.getElementsByTagName("a");
+            for (var i = 0, l = els.length; i < l; i++) {
+                var el = els[i];
+                if (el.href.includes("%%MAIL%%")) {
+                    el.href = decode("`T\\_gb-Z\\hfXccX!U\\f\\VV[\\T3c[W!ha\\c\\!\\g");
+                }
+            }});
+            </script>
+        </head>
     <body>
-        <!-- Navigation Bar-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark cp-navbar">
-            <a class="navbar-brand cp-brand" href="index.html">JS</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jsNavBar" aria-controls="jsNavBar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="jsNavBar">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="about.html">About</a>
-                    <a class="nav-item nav-link" href="research.html">Research</a>
-                    <a class="nav-item nav-link active" href="publications.html">Publications</a>
-                    <a class="nav-item nav-link" href="teaching.html">Teaching</a>
-                    <a class="nav-item nav-link" href="theses.html">Supervised theses</a>
-                    <a class="nav-item nav-link" href="contacts.html">Contacts</a>
-                </div> 
+        
+            <!-- Navigation Bar-->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark cp-navbar">
+                <a class="navbar-brand cp-brand" href="index.html">GB</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jsNavBar" aria-controls="jsNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="jsNavBar">
+                    <div class="navbar-nav ml-auto">
+                
+                            <a class="nav-item nav-link" href="about.html">About</a>
+                        <a class="nav-item nav-link active" href="publications.html">Publications</a>
+                            <a class="nav-item nav-link" href="teaching.html">Teaching</a>
+                            <a class="nav-item nav-link" href="contacts.html">Contacts</a>
+                    </div> 
+                </div>
+            </nav>
+            <div class="container">
+        <div class="row pt-4">
+                <div class="col">
+                    Please find below a comprehensive list of my publications. The colour boxes in front of each publication follow the <a class="cp-link" href="https://dblp.uni-trier.de/faq/What+is+the+meaning+of+the+colors+in+the+publication+lists.html">DBLP colour scheme</a>.
+                        Indexed publications are also listed on
+                        <a class="cp-link" href="https://www.csauthors.net/giuseppe-bisicchia/">csauthors.net</a>, 
+                        <a class="cp-link" href="https://dblp.org/pid/296/0099.html">DBLP</a>, 
+                        <a class="cp-link" href="https://scholar.google.com/citations?user=7PUTvtYAAAAJ&hl">Google Scholar</a>, 
+                        <a class="cp-link" href="https://www.researchgate.net/profile/Giuseppe_Bisicchia">Research Gate</a>,  
+                        <a class="cp-link" href="https://www.scopus.com/authid/detail.uri?authorId=57225906269">Scopus</a>,
+                        <a class="cp-link" href="https://www.webofscience.com/wos/author/record/HNQ-1300-2023">WoS</a>, and
+                        <a class="cp-link" href="https://orcid.org/0000-0002-1187-8391">ORCID</a>.
+                </div>   
             </div>
-        </nav>
-
-        <!-- Contents -->
+        </div>
         <div class="container">
             <div class="row pt-4">
-                <div class="col">
-                    <p>
-                        Please find below a comprehensive list of my publications, where the colour boxes in front of each publication follow the <a class="cp-link" href="https://dblp.uni-trier.de/faq/What+is+the+meaning+of+the+colors+in+the+publication+lists.html">DBLP colour scheme</a>.
-                        Indexed publications are also listed on
-                        <a class="cp-link" href="https://www.csauthors.net/jacopo-soldani/">csauthors.net</a>, 
-                        <a class="cp-link" href="http://dblp.uni-trier.de/pers/hd/s/Soldani:Jacopo">DBLP</a>, 
-                        <a class="cp-link" href="https://scholar.google.com/citations?user=k4sVHoUAAAAJ&hl=en&oi=ao">Google Scholar</a>, 
-                        <a class="cp-link" href="https://www.researchgate.net/profile/Jacopo_Soldani">Research Gate</a>,  
-                        <a class="cp-link" href="http://www.scopus.com/authid/detail.uri?authorId=56203938200">Scopus</a>, and
-                        <a class="cp-link" href="https://www.webofscience.com/wos/author/record/O-5057-2019">WoS</a>. 
-                    </p>
-                </div>
-            </div>
-
-            <!-- Submitted for publication -->
-            <div class="row">
+            
                 <div class="col">
                     <ul class="list-group">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">Submitted for publication</span></li>
-                        <li class="list-group-item">
-                            J. Soldani, S. Forti, A. Brogi.
-                            <span class="cp-publication-title">yRCA: An Explainable Failure Root Cause Analyser</span>.
-                        </li>   
-                        <li class="list-group-item">
-                            M. Stötzner, S. Becker, U. Breitenbücher, G. Falazi, L. Harzenetter, K. Klein, O. Kopp, F. Leymann, J. Soldani, B. Weder.
-                            <span class="cp-publication-title">A Systematic Technology Review of Open-Source TOSCA Orchestrators</span>.
-                        </li>
-                        <!--
-                        <li class="list-group-item">
-                            P. Wizenty, F. Ponce, F. Rademacher, J. Soldani, H. Astudillo, A. Brogi, S. Sachweh. 
-                            <span class="cp-publication-title">Title hidden for double-blind review reasons</span>.
-                        </li>
-                        -->
-                    </ul>
-                </div>
-            </div>
-            
-            <!-- In press/accepted for publication -->
-            <div class="row">
-                <div class="col">
-                    <ul class="list-group pt-4">
                         <li class="list-group-item cp-shaded"><span class="cp-title">Accepted for Publication</span></li>
-                        <!-- Journals -->
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani, J. Khalili, A. Brogi.
-                            <span class="cp-publication-title">Offline Mining of Microservice-based Architectures (Extended Version)</span>.
-                            Springer Nature Computer Science, <em>accepted for publication</em>.
-                        </li>
-                        <!-- Conference Proceedings -->
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            F. Ponce, J. Soldani, H. Astudillo, A. Brogi.
-                            <span class="cp-publication-title">Microservices Security: Bad vs. Good Practices</span>.
-                            DeMeSSA @ ECSA 2022, <em>accepted for publication</em>.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani, M. Marinò, A. Brogi.
-                            <span class="cp-publication-title">Semi-automated Smell Resolution in Kubernetes-deployed Microservices</span>.
-                            CLOSER 2023, <em>accepted for publication</em>.
-                        </li>   
-                    </ul>
-                </div>   
-            </div>   
+        <li class="list-group-item"><span class="badge badge-journal">&nbsp;&nbsp;</span> G. Bisicchia, S. Forti, A. Brogi. <span class="cp-publication-title">Sustainable Goal-Oriented Smart Environments: a Declarative Programming Approach</span>. Journal of Logic and Computation, 2023. <br><a class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a></li>
+            <li class="list-group-item"><span class="badge badge-proceedings">&nbsp;&nbsp;</span> G. Bisicchia, S. Forti, A. Colla, A. Brogi. <span class="cp-publication-title">Customisable Fault and Performance Monitoring Across Multiple Clouds</span>. 13th International Conference on Cloud Computing and Services Science (CLOSER 2023), 2023. <br><a class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/cloudWatcher">Repository</a></li>
             
-            <!-- 2023 -->
-            <div class="row">
-                <div class="col">
-                    <ul class="list-group pt-4">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">2023</span></li>
-                        <!-- Journals -->
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1145/3501297">Anomaly Detection and Failure Root Cause Analysis in (Micro)Service-Based Cloud Applications: A Survey</a></span>.
-                            ACM Computing Surveys, vol. 55, issue 3, article no. 59, pp. 1-39, 2023.
-                            <a class="cp-link" href="https://arxiv.org/abs/2105.12378">[Preprint]</a>
-                            <a class="cp-link" href="https://link.growkudos.com/1s9zkswcjy8">[Kudos]</a>
-                        </li>
                     </ul>
                 </div>
             </div>
-
-            <!-- 2022 -->
-            <div class="row">
+        </div><div class="container">
+            <div class="row pt-4">
+            
                 <div class="col">
-                    <ul class="list-group pt-4">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">2022</span></li>
-                        <!-- Journals -->
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            S. Forti, U. Breitenb&uuml;cher, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://doi.acm.org/10.1145/3539814.3539820">Trending Topics in SE</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, vol. 47, issue 3, pp. 20-21, 2022.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://doi.acm.org/10.1145/3539814.3539821">An interview with Xin Xia - 2022 SIGSOFT Awardee</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, vol. 47, issue 3, pp. 22-23, 2022.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            U. Breitenb&uuml;cher, S. Forti, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://doi.org/10.1145/3561846.3561848">Software Engineering After the COVID-19 Outbreak</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, vol. 47, issue 4, p. 7, 2022.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://doi.org/10.1145/3561846.3561855">An interview with Miryung Kim - 2022 SIGSOFT Awardee</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, vol. 47, issue 4, pp. 32-33, 2022.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani, M. Cameriero, G. Paparelli, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1145/3511302">Modelling and Analysing Replica- and Fault-aware Management of Horizontally Scalable Applications</a></span>.
-                            ACM Transactions on Internet Technology, vol. 22, issue 3, article no. 74, pp. 1-32, 2022.
-                            <a class="cp-link" href="https://link.growkudos.com/1bn9bz1cnpc">[Kudos]</a>
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, J. Carrasco, F. Duran, E. Pimentel, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://www.doi.org/10.1007/s00607-021-00977-z">Self-Healing Trans-Cloud Applications</a></span>.
-                            Computing, vol. 104, issue 4, pp. 809-833, 2022.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            F. Ponce, J. Soldani, H. Astudillo, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1016/j.jss.2022.111393">Smells and Refactorings for Microservices Security: A Multivocal Literature Review</a></span>.
-                            Journal of Systems and Software, vol. 192, 111393, 2022.
-                            <a class="cp-link" href="http://arxiv.org/abs/2104.13303">[Preprint]</a>
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani, L. Luthmann, M. Lochau, A. Brogi. 
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/s11761-022-00341-9">Compositional Testing of Management Conformance for Multi-Component Enterprise Applications</a></span>.
-                            Service Oriented Computing and Applications, vol. 16, issue 3, pp. 209-225, 2022.
-                            <a class="cp-link" href="https://link.springer.com/content/pdf/10.1007/s11761-022-00341-9.pdf" target="_blank">[PDF]</a>
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            V. Yussupov, J. Soldani, U. Breitenb&uuml;cher, F. Leymann.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://www.doi.org/10.1002/spe.3073">Standards-based Modeling and Deployment of Serverless Function Orchestrations Using BPMN and TOSCA</a></span>.
-                            Software: Practice and Experience, vol. 52, issue 6, pp. 1454-1495, 2022.
-                        </li>
-                        <!-- Conference Proceedings -->
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani, J. Khalili, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.5220/0011061000003200">Offline Mining of Microservice-based Architectures</a></span>.
-                            12th International Conference on Cloud Computing and Services Science (CLOSER 2022). 
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani, S. Forti, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-031-16092-9_6">Failure Root Cause Analysis for Microservices, Explained</a></span>.
-                            22nd International Conference on Distributed Applications and Interoperable Systems (DAIS 2022).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            E. Ntentos, U. Zdun, J. Soldani, A. Brogi. 
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-031-16697-6_7">Assessing Architecture Conformance to Coupling-Related Infrastructure-as-Code Best Practices: Metrics and Case Studies</a></span>.
-                            16th European Conference on Software Architecture (ECSA 2022).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            F. Ponce, J. Soldani, H. Astudillo, A. Brogi. 
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-031-16697-6_9">Should micoservices' security smells stay or get refactored? Towards a trade-off analysis</a></span>.
-                            16th European Conference on Software Architecture (ECSA 2022).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani, R. Paoletti, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-031-04718-3_6">Pattern-Based Resolution of Integration Mismatches in Enterprise Applications</a></span>.
-                            9th European Conference on Service-Oriented and Cloud Computing (ESOCC 2022). 
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani, S. Forti, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://www.conf-micro.services/2022/papers/paper_14.pdf">Explainable Root Cause Analysis for Failing Microservices</a></span>.
-                            Microservices 2022, informal proceedings.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            V. Yussupov, U. Breitenb&uuml;cher, A. Brogi, L. Harzenetter, F. Leymann, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-031-18304-1_3">Serverless or Serverful? A Pattern-based Approach for Exploring Hosting Alternatives</a></span>.
-                            16th International Symposium and Summer School (SummerSOC 2022).
-                        </li>
-                        <!-- Edited Volumes -->
-                        <li class="list-group-item">
-                            <span class="badge badge-volume">&nbsp;&nbsp;</span>
-                            C. Zirpins, G. Ortiz, Z. Nochta, O. Waldhorst, J. Soldani, M. Villari, D. Tamburri.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://link.springer.com/book/10.1007/978-3-031-23298-5">Advances in Service-Oriented and Cloud Computing. International Workshops of ESOCC 2022, Wittenberg, Germany, March 22–24, 2022, Revised Selected Papers</a></span>. 
-                            Communications in Computer and Information Science (CCIS), vol. 1617.
-                        </li>
+                    <ul class="list-group">
+                        <li class="list-group-item cp-shaded"><span class="cp-title">Publications</span></li>
+        <li class="list-group-item"><span class="badge badge-journal">&nbsp;&nbsp;</span> S. Forti, G. Bisicchia, A. Brogi. <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1093/logcom/exab083">Declarative Continuous Reasoning in the Cloud-IoT Continuum</a></span>. Journal of Logic and Computation, Volume 32, Issue 2, March 2022, Pages 206-232, 2022. <br><a class="btn btn-box btn-box-link" data-toggle="collapse" href="#talk-4" role="button" aria-expanded="false" aria-controls="talk-4">Abstract</a><a class="btn btn-box btn-box-link" href="https://doi.org/10.1093/logcom/exab083">DOI</a><a class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/fogbrainx">Repository</a><a class="btn btn-box btn-box-link" href="assets/citations/bisicchia2022declarativeCR.bib">Cite</a><div class="collapse" id="talk-4">Developing and releasing multiservice applications rely upon a pipeline of automation tools known as Continuous Integration/Continuous Deployment. Among those tools, continuous reasoning is exploited by large companies to perform incremental static analyses on their code commits as soon as they are integrated into a shared codebase. In this article, we extend continuous reasoning towards the continuous QoS- and context-aware management of multiservice applications in Cloud-IoT scenarios. We propose a novel continuous reasoning methodology that supports runtime decision on service placement by reacting both to changes in the infrastructure and in the application requirements, and capable of suggesting migrations only for services affected by such changes. The methodology is prototyped in Prolog and assessed through simulations over a realistic use case and over a lifelike motivating scenario at increasing infrastructure sizes. Experimental results show that our approach brings considerable speed-up in comparison with an exhaustive search employing non-incremental reasoning.</div></li>
+            <li class="list-group-item"><span class="badge badge-proceedings">&nbsp;&nbsp;</span> G. Bisicchia, S, Forti, A. Brogi. <span class="cp-publication-title"><a class="cp-link" href="https://ceur-ws.org/Vol-3002/paper3.pdf">A Declarative Goal-oriented Framework for Smart Environments with LPaaS</a></span>. 36th Italian Conference on Computational Logic (CILC 2021), 2021. <br><a class="btn btn-box btn-box-link" data-toggle="collapse" href="#talk-3" role="button" aria-expanded="false" aria-controls="talk-3">Abstract</a><a class="btn btn-box btn-box-link" href="https://ceur-ws.org/Vol-3002/paper3.pdf">DOI</a><a class="btn btn-box btn-box-link" href="assets/publications/Solomon_CILC2021.pdf">PDF</a><a class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a><a class="btn btn-box btn-box-link" href="assets/slides/A Declarative Goal-oriented Framework for Smart Environments with LPaaS - CILC21.pdf">Slides</a><a class="btn btn-box btn-box-link" href="assets/citations/bisicchia2021declarativeGO.bib">Cite</a><div class="collapse" id="talk-3">Smart environments powered by the Internet of Things aim at improving our daily lives by automatically tuning ambient parameters (e.g. temperature, interior light) and by achieving energy savings through self-managing cyber-physical systems. Commercial solutions, however, only permit setting simple target goals on those parameters and do not consider mediating conflicting goals among different users and/or system administrators, and feature limited compatibility across different IoT verticals. In this article, we propose a declarative framework to represent smart environments, user-set goals and customisable mediation policies to reconcile contrasting goals encompassing multiple IoT systems. An open-source Prolog prototype of the framework is showcased over two lifelike motivating examples.</div></li>
+            <li class="list-group-item"><span class="badge badge-proceedings">&nbsp;&nbsp;</span> G. Bisicchia, S, Forti, A. Brogi. <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1109/SMARTCOMP52413.2021.00079">Declarative Goal Mediation in Smart Environments</a></span>. 2021 IEEE International Conference on Smart Computing (SMARTCOMP), 2021. <br><a class="btn btn-box btn-box-link" data-toggle="collapse" href="#talk-2" role="button" aria-expanded="false" aria-controls="talk-2">Abstract</a><a class="btn btn-box btn-box-link" href="https://doi.org/10.1109/SMARTCOMP52413.2021.00079">DOI</a><a class="btn btn-box btn-box-link" href="assets/publications/Solomon_SMARTCOMP2021.pdf">PDF</a><a class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a><a class="btn btn-box btn-box-link" href="assets/slides/DEMOWiP_5_BISICCHIA.pdf">Slides</a><a class="btn btn-box btn-box-link" href="assets/videos/DEMOWiP_5_BISICCHIA.mp4">Video</a><a class="btn btn-box btn-box-link" href="assets/citations/bisicchia2021declarativeGM.bib">Cite</a><div class="collapse" id="talk-2">Smart environments enabled by the Internet of Things aim at improving our daily lives by automatically tuning ambient parameters and by achieving energy savings through self-managing cyber-physical systems. Commercial solutions, however, only permit setting simple target goals on those parameters and do not mediate between conflicting goals among different users and/or system administrators, nor across different IoT verticals. In this article, we propose a declarative approach (and its open-source Prolog prototype) to represent smart environments, user-set goals and customisable mediation policies to reconcile contrasting goals across multiple IoT systems.</div></li>
+            
                     </ul>
                 </div>
             </div>
-                        
-            <!-- 2021 -->
-            <div class="row">
-                <div class="col">
-                    <ul class="list-group pt-4">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">2021</span></li>
-                        <!-- Journals -->
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://doi.org/10.1145/3468744.3468747">Pains and Gains of Peer Reviewing in Software Engineering (5)</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, volume 46, issue 2, page 14, 2021.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://dx.doi.org/10.1145/3437479.3437480">Pains and Gains of Peer Reviewing in Software Engineering (4)</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, volume 46, issue 1, page 8, 2021.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            V. Yussupov, J. Soldani, U. Breitenb&uuml;cher, A. Brogi, F. Leymann.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://doi.org/10.1016/j.jss.2021.110906">FaaSten Your Decisions: A Classification Framework and Technology Review of Function-as-a-Service Platforms</a></span>.
-                            Journal of Systems and Software, vol. 175, 110906, 2021.
-                            <a class="cp-link" href="http://arxiv.org/abs/2004.00969">[Preprint]</a>
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            E. Pimentel, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1016/j.scico.2020.102594">Preface to the Special Issue on Coordination and Self-Adaptiveness of Software Applications</a></span>.
-                            Science of Computer Programming, vol. 204, 2021.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani, G. Muntoni, D. Neri, A. Brogi. 
-                            <span class="cp-publication-title"><a class="cp-link" href="http://doi.org/10.1002/spe.2974">The &mu;TOSCA toolchain: Mining, Analysing, and Refactoring Microservice-based Architectures</a></span>
-                            Software: Practice and Experience, vol. 51, issue 7, pp. 1591-1621, 2021.
-                            <a class="cp-link" href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/spe.2974" target="_blank">[PDF]</a>
-                        </li>
-                        <!-- Conference Proceedings -->
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            M. Wurster, U. Breitenb&uuml;cher, A. Brogi, F. Diez, F. Leymann, J. Soldani, K. Wild.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.5220/0010404301780189">Automating the Deployment of Distributed Applications by Combining Multiple Deployment Technologies</a></span>.
-                            11th International Conference on Cloud Computing and Services Science (CLOSER 2021).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            V. Yusspov, J. Soldani, U. Breitenb&uuml;cher, A. Brogi, F. Leymann.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.5220/0010481002680279">From Serverful to Serverless: A Spectrum of Patterns for Hosting Application Components</a></span>.
-                            11th International Conference on Cloud Computing and Services Science (CLOSER 2021).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani, U. Breitenb&uuml;cher, A. Brogi, L. Frioli, F. Leymann, M. Wurster.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://link.springer.com/chapter/10.1007/978-3-031-21637-4_1">Tailoring Technology-Agnostic Deployment Models to Production-Ready Deployment Technologies</a></span>.
-                            CLOSER (Revised Selected Papers) 2021. 
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-030-86507-8_10">Automated Generation of Configurable Cloud-Native Chaos Testbeds</a></span>.
-                            13th International Workshop on Software Engineering for Resilient Systems (SERENE 2021).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani, G. Montesano, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://doi.org/10.1007/978-3-030-87568-8_9">What Went Wrong? Explaining Cascading Failures in Microservice-based Applications</a></span>.
-                            15th Symposium and Summer School On Service-Oriented Computing (SummerSOC 2021).
-                        </li>
-                        <!-- Edited Volumes -->
-                        <li class="list-group-item">
-                            <span class="badge badge-volume">&nbsp;&nbsp;</span>
-                            C. Zirpins, I. Paraskakis, V. Andrikopoulos, N. Kratzke, C. Pahl, N. El Ioini, A.S. Andreou, G. Feuerlicht, W. Lamersdorf, G. Ortiz, W.J. Van den Heuvel, J. Soldani, M. Villari, G. Casale, P. Plebani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://link.springer.com/book/10.1007/978-3-030-71906-7">Advances in Service-Oriented and Cloud Computing: International Workshops of ESOCC 2020, Heraklion, Crete, Greece, September 28-30, 2020, Revised Selected Papers</a></span>. 
-                            Communications in Computer and Information Science (CCIS), vol. 1360.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- 2020 -->
-            <div class="row">
-                <div class="col">
-                    <ul class="list-group pt-4">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">2020</span></li>
-                        <!-- Journals -->
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://dx.doi.org/10.1145/3417564.3417567">Pains and Gains of Peer Reviewing in Software Engineering (3)</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, volume 45, issue 3, page 17, 2020.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://dx.doi.org/10.1145/3402127.3402132">Pains and Gains of Peer Reviewing in Software Engineering (2)</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, volume 45, issue 3, page 15, 2020.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            M. Kuhrmann, D. Pfahl, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://dx.doi.org/10.1145/3402127.3402134">Software Engineering Worldwide</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, volume 45, issue 3, page 17, 2020.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1145/3385678.3385688">Pains and Gains of Peer Reviewing in Software Engineering</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, volume 45, issue 2, page 6, 2020.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani, M. Kuhrmann, D. Pfahl.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://dx.doi.org/10.1145/3375572.3375575">Pains and Gains of Peer Reviewing in Software Engineering</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, volume 45, issue 1, page 12-13, 2020.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            M. Bogo, J. Soldani, D. Neri, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://dx.doi.org/10.1002/itl2.212">Fine-grained management of cloud-native applications, based on TOSCA</a></span>.
-                            Internet Technology Letters, volume 3, issue 5, e212, 2020.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            D. Neri, J. Soldani, O. Zimmermann, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/s00450-019-00407-8">Design principles, architectural smells and refactorings for microservices: A multivocal review</a></span>.
-                            SICS Software-Intensive Cyber-Physical Systems, volume 35, issue 1, pages 3-15, 2020.
-                            <a class="cp-link" href="https://rdcu.be/bQfr6">[PDF]</a>
-                            &nbsp;
-                            <a class="cp-link" href="http://arxiv.org/abs/1906.01553">[Preprint]</a>
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            M. Wurster, U. Breitenb&uuml;cher, M. Falkenthal, C. Krieger, F. Leymann, K. Saatkamp, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/s00450-019-00412-x">The Essential Deployment Metamodel: A Systematic Review of Deployment Automation Technologies</a></span>.
-                            SICS Software-Intensive Cyber-Physical Systems, volume 35, issue 1, pages 63-75, 2020.
-                            <a class="cp-link" href="https://rdcu.be/bPDeQ">[PDF]</a>
-                            &nbsp;
-                            <a class="cp-link" href="https://arxiv.org/abs/1905.07314">[Preprint]</a>
-                        </li> 
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J.M. Jacquet, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1016/j.scico.2020.102417">Preface to the Special Issue on Foundations of Coordination Languages and Self-Adaptive Systems (FOCLASA 2018)</a></span>.
-                            Science of Computer Programming, volume 191, 2020.
-                        </li>                       
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            M. Bogo, J. Soldani, D. Neri, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1002/spe.2848"> Component-aware Orchestration of Cloud-based Enterprise Applications, from TOSCA to Docker and Kubernetes</a></span>.
-                            Software: Practice and Experience, volume 50, issue 9, pages 1793-1821, 2020.
-                            <a class="cp-link" href="http://arxiv.org/abs/2002.01699">[Preprint]</a>
-                        </li>
-                        <!-- Conference Proceedings -->
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            M. Wurster, U. Breitenb&uuml;cher, L. Harzenetter, F. Leymann, J. Soldani
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-030-58135-0_12">TOSCA Lightning: An Integrated Toolchain for Transforming TOSCA Light into Production-Ready Deployment Technologies</a></span>.
-                            32nd International Conference on Advanced Information Systems Engineering (CAiSE 2020), Demonstration track.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            G. Marquez, J. Soldani, F. Ponce, H. Astudillo.
-                            <span class="cp-publication-title">Frameworks and High-Availability in Microservices: An Industrial Survey</span>.
-                            XXIII Ibero-American Conference on Software Engineering (CibSE 2020).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            M. Wurster, U. Breitenb&uuml;cher, A. Brogi, F. Leymann, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.5220/0009571001710180">Cloud-native Deploy-ability: An Analysis of Required Features of Deployment Technologies to Deploy Arbitrary Cloud-native Applications</a></span>.
-                            10th International Conference on Cloud Computing and Service Science (CLOSER 2020).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            M. Wurster, U. Breitenb&uuml;cher, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.5220/0009794302160226">TOSCA Light: Bridging the Gap between the TOSCA Specification and Production-ready Deployment Technologies</a></span>.
-                            10th International Conference on Cloud Computing and Service Science (CLOSER 2020).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-030-71906-7_1">Finding feasible application deployments in edge clusters, with limited resources</a></span>.
-                            International Workshop on Edge Migration and Architecture (EdgeWays 2020).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            V. Yussupov, U. Breitenb&uuml;cher, C. Krieger, F. Leymann, J. Soldani, M. Wurster.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1109/EDOC49727.2020.00015">Pattern-based Modelling, Integration, and Deployment of Microservice Architectures</a></span>.
-                            24th IEEE International EDOC Conference (EDOC 2020).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani, L. Luthmann, M. Lochau, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/978-3-030-44769-4_1">Testing conformance in multi-component enterprise application management</a></span>.
-                            8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            M. Wurster, U. Breitenb&uuml;cher, A. Brogi, L. Harzenetter, F. Leymann, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/978-3-030-44769-4_8">Technology-agnostic Declarative Deployment Automation of Cloud Applications</a></span>.
-                            8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            G. Muntoni, J. Soldani, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-030-71906-7_9">Mining the Architecture of Microservice-Based Applications from their Kubernetes Deployment</a></span>.
-                            16th International Workshop on Engineering Service-Oriented Applications and Cloud Services (WESOACS 2020).
-                        </li>
-                    </ul>
-                </div>
-            </div>     
+        </div><div class="container">
+            <div class="row pt-4">
             
-            <!-- 2019 -->
-             <div class="row">
                 <div class="col">
-                    <ul class="list-group pt-4">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">2019</span></li>
-                        <!-- Journals -->
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://dx.doi.org/10.1145/3356773.3356776">Grey literature: A safe bridge between academy and industry?</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, volume 44, issue 3, pages 11-12, 2019.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, A. Corradini, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/s00165-019-00491-2">Estimating costs in multi-component enterprise applications</a></span>.
-                            Formal Aspects of Computing, volume 31, issue 4, pages 421-451, 2019.
-                            <a class="cp-link" href="https://rdcu.be/bPgs2">[PDF]</a>
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            C. Pahl, A. Brogi, J. Soldani, P. Jamshidi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1109/TCC.2017.2702586">Cloud Container Technologies: a State-of-the-Art Review</a></span>.
-                            IEEE Transactions on Cloud Computing, volume 7, issue 3, pages 677-692, 2019.
-                        </li>
-                        <!-- Conferences -->
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, J. Carrasco, F. Dur&aacute;n, E. Pimentel, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1109/CLOUD.2019.00046">Robust management of trans-cloud applications</a></span>.
-                            2019 IEEE 12th International Conference on Cloud Computing (CLOUD 2019).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, J. Soldani
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-030-57506-9_17">Identifying failure causalities in multi-component applications</a></span>.
-                            17th International Workshop on Coordination and Self-Adaptativeness of Software Applications (FOCLASA 2019).
-                        </li>
-						<li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            M. Wurster, U. Breitenb&uuml;cher, A. Brogi, G. Falazi, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/978-3-030-45989-5_26">The EDMM Modeling and Transformation System</a></span>.
-                            17th International Conference on Service-Oriented Computing (ICSOC 2019), Demonstration track.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, D. Neri, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/978-3-030-45989-5_2">Freshening the air in microservices: Resolving architectural smells via refactoring</a></span>.
-                            15th International Workshop on Engineering Service-Oriented Applications and Cloud Services (WESOACS 2019).
-                        </li>
-                    </ul>
-                </div>
-            </div>        
-            
-            <!-- 2018 -->
-             <div class="row">
-                <div class="col">
-                    <ul class="list-group pt-4">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">2018</span></li>
-                        <!-- Journals -->
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, M. Danelutto, D. De Sensi, A. Ibrahim, J. Soldani, M. Torquati.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/s10766-016-0476-8">Analysing Multiple QoS Attributes in Parallel Design Patterns-based Applications</a></span>.
-                            International Journal of Parallel Programming, volume 46, issue 1, pages 81-100, 2018.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, A. Canciani, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://doi.org/10.1016/j.jss.2018.02.005">Fault-aware management protocols for multi-component applications</a></span>.
-                            Journal of Systems and Software, volume 139, pages 189-210, 2018.
-                            <a class="cp-link" href="assets/preprints/fault-aware-management-protocols.pdf">[Preprint]</a>
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1016/j.jss.2018.09.082">The Pains and Gains of Microservices: A Systematic Grey Literature Review</a></span>.
-                            Journal of Systems and Software, volume 146, pages 215-232, 2018.
-                            <a class="cp-link" href="assets/preprints/microservices-pains-gains.pdf">[Preprint]</a>
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, D. Neri, L. Rinaldi, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1016/j.scico.2018.07.005">Orchestrating incomplete TOSCA applications with Docker</a></span>.
-                            Science of Computer Programming, volume 166, pages 194-213, 2018.
-                            <a class="cp-link" href="assets/preprints/toskeriser-extended.pdf">[Preprint]</a>
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            F. Bonchi, A. Brogi, A. Canciani, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1016/j.scico.2017.06.001">Simulation-based matching of cloud applications</a></span>.
-                            Science of Computer Programming, volume 162, pages 110-131, 2018.
-                            <a class="cp-link" href="assets/preprints/simulation-based-matching.pdf">[Preprint]</a>
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, D. Neri, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1002/spe.2583"> A microservice-based architecture for (customisable) analyses of Docker images</a></span>.
-                            Software: Practice and Experience, volume 48, issue 8, pages 1461-1474, 2018.
-                            <a class="cp-link" href="assets/preprints/dockeranalyser.pdf">[Preprint]</a>
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, L. Rinaldi, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1002/spe.2625">TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications</a></span>.
-                            Software: Practice and Experience, volume, 48, issue 11, pages 2061-2079, 2018.
-                            <a class="cp-link" href="assets/preprints/tosker-extended.pdf">[Preprint]</a>
-                        </li>
-                        <!-- Conferences -->
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, C. Pahl, J. Soldani
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-030-63161-1_2">On enhancing the orchestration of multi-container Docker applications</a></span>.
-                            4th International Workshop on Cloud Migration and Architecture (CloudWays 2018).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            R. Guidotti, J. Soldani, D. Neri, A. Brogi, D. Pedreschi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-030-10997-4_13">Helping your Docker images to spread based on explainable models</a></span>.
-                            European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2018).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, A. Canciani, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-319-99819-0_2">True concurrent management of multi-component applications</a></span>.
-                            European Conference on Service-Oriented and Cloud Computing (ESOCC 2018).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            R. Guidotti, J. Soldani, D. Neri, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://link.springer.com/chapter/10.1007/978-3-030-04771-9_9"> Explaining Successful Docker Images using Pattern Mining Analysis</a></span>.
-                            Software Technologies: Applications and Foundations (STAF 2018).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://domino.research.ibm.com/library/cyberdig.nsf/papers/B9C0E546AD89207E8525832F0050BD23/$File/RC25681.pdf">On modelling, analysing and reusing multi-component applications</a></span>.
-                            12th Advanced Summer School on Service Oriented Computing (SummerSOC).
-                        </li>
-                    </ul>
-                </div>
-            </div>        
-            
-            <!-- 2017 -->
-             <div class="row">
-                <div class="col">
-                    <ul class="list-group pt-4">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">2017</span></li>
-                        <!-- Journals -->
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, P. Cifariello, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/s00450-016-0332-5">DrACO: Discovering Available Cloud Offerings</a></span>.
-                            Computer Science: Research & Development, volume 32, issue 3-4, pages 269-279, 2017.
-                        </li>
-                        <!-- Conferences -->
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, A. Canciani, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-319-59746-1_10">Modelling the dynamic reconfiguration of application topologies, faults included</a></span>.
-                            19th International Conference on Coordination Models and Languages (COORDINATION 2017).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, D. Neri, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1109/IC2E.2017.41">DockerFinder: Multi-attribute search of Docker images</a></span>.
-                            5th IEEE International Conference on Cloud Engineering (IC2E 2017).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, A. Di Tommaso, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/978-3-319-94764-8_1">Sommelier: A tool for validating TOSCA application topologies</a></span>.
-                            MODELSWARD (Revised Selected Papers) 2017.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, A. Di Tommaso, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.5220/0006244006670678">Validating TOSCA application topologies</a></span>.
-                            5th International Conference on Model-Driven Engineering and Software Development (MODELSWARD 2017).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, D. Neri, L. Rinaldi, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-319-74781-1_33">From (incomplete) TOSCA specifications to running applications, with Docker</a></span>.
-                            15th International Workshop on Foundations of Coordination Languages and Self-Adaptative Systems (FOCLASA 2017).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, A. Canciani, D. Neri, L. Rinaldi, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-319-74781-1_16">Towards a reference dataset of microservice-based applications</a></span>.
-                            Microservices: Science and Engineering (MSE 2017).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, L. Rinaldi, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-319-79090-9_9">TosKer: Orchestrating applications with TOSCA and Docker</a></span>.
-                            3rd International Workshop on Cloud Adoption and Migration (CloudWays 2017).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, G. Mencagli, D. Neri, J. Soldani, M. Torquati.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-319-75178-8_2">Container-based Support for Autonomic Data Stream Processing through the Fog</a></span>.
-                            1st International Workshop on Autonomic Solutions for Parallel and Distributed Data Stream Processing (Auto-DaSP 2017).
-                        </li>
-                    </ul>
-                </div>
-            </div>        
-            
-            <!-- 2016 -->
-             <div class="row">
-                <div class="col">
-                    <ul class="list-group pt-4">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">2016</span></li>
-                        <!-- Journals -->
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1016/j.scico.2015.09.004">Finding available services in TOSCA-compliant clouds</a></span>.
-                            Science of Computer Programming, volumes 115-116, pages 177-198, 2016.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            J. Soldani, T. Binz, U. Breitenbuecher, F. Leymann, A. Brogi.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://dx.doi.org/10.1016/j.jss.2015.12.025">ToscaMart: A method for adapting and reusing cloud applications</a></span>.
-                            Journal of Systems and Software, volume 113, pages 395-406, 2016.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, A. Canciani, J. Soldani, P. Wang.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/978-3-662-53401-4_2"> A Petri net-based approach to model and analyze the management of cloud applications</a></span>.
-                            Transactions on Petri Nets and other models of Concurrency, volume 11, pages 28-48, 2016.
-                        </li>
-                        <!-- Conferences -->
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, J. Carrasco, F. D'Andria, E. Di Nitto, M. Guerriero, D. Perez, E. Pimentel, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/978-3-319-48992-6_25">SeaClouds: An Open Reference Architecture for Multi-cloud Governance</a></span>.
-                            10th European Conference on Software Architectures (ECSA 2016).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            F. Bonchi, A. Brogi, A. Canciani, J. Soldani..
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1109/TASE.2016.32">Behaviour-aware matching of cloud applications</a></span>.
-                            10th International Symposium on Theoretical Aspects of Software Engineering (TASE 2016).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, A. Canciani, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.1007/978-3-319-44482-6_14">Fault-aware application management protocols</a></span>.
-                            5th European Conference on Service-Oriented and Cloud Computing (ESOCC 2016).
-                        </li>
-                    </ul>
-                </div>
-            </div>        
-            
-            <!-- 2015 -->
-             <div class="row">
-                <div class="col">
-                    <ul class="list-group pt-4">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">2015</span></li>
-                        <!-- Journals -->
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, M. Fazzolari, A. Ibrahim, J. Soldani, P. Wang, J. Carrasco, J. Cubo, F. Duran, E. Pimentel, E. Di Nitto, F. D'Andria.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://dx.doi.org/10.19153/cleiej.18.1.1">Adaptive management of applications across multiple clouds: The SeaClouds Approach</a></span>.
-                            CLEI Electronic Journal, volume 18, number 1, pages 1-14, 2015.
-                        </li>
-                        <!-- Conferences -->
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, A. Canciani, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-319-24072-5_2">Modelling and Analysing Cloud Application Management</a></span>.
-                            4th European Conference on Service-Oriented and Cloud Computing (ESOCC 2015).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            Brogi, A. Canciani, J. Soldani, P. Wang.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://ceur-ws.org/Vol-1372/paper11.pdf">Modelling the behaviour of management operations in cloud-based applications</a></span>.
-                            International Workshop on Petri Nets and Software Engineering (PNSE 2015).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://wcms.itz.uni-halle.de/download.php?down=39405&elem=2902391">Towars a full-fledged support for designing cloud applications</a></span>.
-                            PhD Symposium at the 4th European Conference on Service-Oriented and Cloud Computing (PhD Symposium @ ESOCC 2015).
-                        </li>
-                    </ul>
-                </div>
-            </div>        
-            
-            <!-- 2014 -->
-             <div class="row">
-                <div class="col">
-                    <ul class="list-group pt-4">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">2014</span></li>
-                        <!-- Journals -->
-                        <li class="list-group-item">
-                            <span class="badge badge-journal">&nbsp;&nbsp;</span>
-                            A. Brogi, A. Ibrahim, J. Soldani, J. Carrasco, J. Cubo, E. Pimentel, and F. D'Andria.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1145/2557833.2557844">SeaClouds: a European project on seamless management of multi-cloud applications</a></span>.
-                            ACM SIGSOFT Software Engineering Notes, volume 39, issue 1, pages 1-4, 2014.
-                        </li>
-                        <!-- Conferences -->
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            S. Zenzaro, V. Gervasi, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-662-43652-3_19">WebASM: An Abstract State Machine Execution Environment for the Web</a></span>.
-                            4th International ABZ Conference (ABZ 2014).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, J. Soldani, P. Wang.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-662-44879-3_13">TOSCA in a nutshell: Promises and perspectives</a></span>.
-                            3rd European Conference on Service-Oriented and Cloud Computing (ESOCC 2014).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, J. Carrasco, J. Cubo, F. D'Andria, A. Ibrahim, E. Pimentel, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://dx.doi.org/10.5220/0004979507580763">EU Project SeaClouds - Adaptive Management of Service-based Applications Across Multiple Clouds</a></span>.
-                            4th International Conference on Cloud Computing and Services Science (CLOSER 2014).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, J. Carrasco, J. Cubo, F. D'Andria, A. Ibrahim, E. Pimentel, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://www.proceedings.com/22505.html">SeaClouds: Seamless adaptive multi-cloud management of service-based applications</a></span>.
-                            27th Ibero-American Conference on Software Engineering (CibSE 2014).
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="http://subs.emis.de/LNI/Proceedings/Proceedings232/235.pdf">Reusing cloud-based services with TOSCA</a></span>.
-                            CLOUDCYCLE Workshop @ INFORMATIK 2014.
-                        </li>
-                    </ul>
-                </div>
-            </div>        
-            
-            <!-- 2013 -->
-             <div class="row">
-                <div class="col">
-                    <ul class="list-group pt-4">
-                        <li class="list-group-item cp-shaded"><span class="cp-title">2013</span></li>
-                        <!-- Journals -->
-                        <!-- Conferences -->
-                        <li class="list-group-item">
-                            <span class="badge badge-proceedings">&nbsp;&nbsp;</span>
-                            A. Brogi, J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1007/978-3-642-45364-9_18">Matching Cloud Services with TOSCA</a></span>.
-                            12th International Workshop on Foundations of Coordination Languages and Self Adaptive systems (FOCLASA 2013).
-                        </li>
-                    </ul>
-                </div>
-            </div>    
-                
-            
-            <!-- Theses -->
-            <div class="row">
-                <div class="col">
-                    <ul class="list-group pt-4">
+                    <ul class="list-group">
                         <li class="list-group-item cp-shaded"><span class="cp-title">Theses</span></li>
-                        <li class="list-group-item">
-                            <span class="badge badge-misc">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://etd.adm.unipi.it/theses/available/etd-03242017-175216/unrestricted/thesis.pdf">Modelling, analysing and reusing composite cloud applications</a></span>.
-                            PhD Thesis, PhD Programme in Computer Science, University of Pisa, Pisa, Italy, a.y. 2016/2017.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-misc">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title"><a class="cp-link" href="https://etd.adm.unipi.it/theses/available/etd-03242017-175216/unrestricted/thesis.pdf">Matching cloud services with TOSCA, and generating adapters if needed</a></span>.
-                            MSc Thesis, PhD Programme in Computer Science, University of Pisa, Pisa, Italy, a.y. 2012/2013.
-                        </li>
-                        <li class="list-group-item">
-                            <span class="badge badge-misc">&nbsp;&nbsp;</span>
-                            J. Soldani.
-                            <span class="cp-publication-title">TCP Buffering in BSD</span>.
-                            BSc Thesis, PhD Programme in Computer Science, University of Pisa, Pisa, Italy, a.y. 2010/2011.
-                        </li>
+        <li class="list-group-item"><span class="badge badge-misc">&nbsp;&nbsp;</span>  G. Bisicchia. <span class="cp-publication-title"><a class="cp-link" href="https://etd.adm.unipi.it/theses/available/etd-06292022-170952/">Continuous Reasoning for Application Management over the Cloud-IoT Continuum</a></span>. MSc Thesis, PhD Programme in Computer Science, University of Pisa, Pisa, Italy, a.y. 2021/2022, 2022. <br><a class="btn btn-box btn-box-link" data-toggle="collapse" href="#talk-1" role="button" aria-expanded="false" aria-controls="talk-1">Abstract</a><a class="btn btn-box btn-box-link" href="https://etd.adm.unipi.it/theses/available/etd-06292022-170952/">DOI</a><a class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/FogArmX">Repository</a><a class="btn btn-box btn-box-link" href="assets/slides/Continuous Management of Multi-Service Applications over the Cloud-IoT Continuum.pdf">Slides</a><div class="collapse" id="talk-1">Designing platforms and methodologies for the orchestration and management of multi-service applications in the Cloud-IoT continuum is becoming more and more a problem of primary importance, due to the current paradigm shifts in the applications development and the new computing paradigms. In light of these needs, in this thesis, we study and implement innovative orchestration techniques, based on the Continuous Reasoning approach, to achieve a scalable, continuous and QoS-compliant management of multi-service applications on large-scale, geographically distributed Cloud-IoT networks. We propose a declarative methodology, and its prototype FogBrainX, to speed up QoS-aware, decision-making in Cloud-IoT application management, and we design and develop a next-generation orchestrator prototype, FogArm, to perform continuous and QoS-compliant management of multi-service applications in Cloud-IoT settings, in continuity with either CI/CD pipelines and infrastructure distributed monitoring tools. Finally, both the methodology and the orchestrator are extensively assessed. To the best of our knowledge, FogArm represents a first complete prototype of a next-gen orchestrator for the continuous QoS-compliant management of multi-service applications on geographically distributed Cloud-IoT nodes.</div></li>
+            <li class="list-group-item"><span class="badge badge-misc">&nbsp;&nbsp;</span>  G. Bisicchia. <span class="cp-publication-title">Goal-driven Management of IoT Indoor Environments</span>. BSc Thesis, PhD Programme in Computer Science, University of Pisa, Pisa, Italy, a.y. 2019/2020, 2020. <br><a class="btn btn-box btn-box-link" data-toggle="collapse" href="#talk-0" role="button" aria-expanded="false" aria-controls="talk-0">Abstract</a><a class="btn btn-box btn-box-link" href="assets/publications/BScThesisBisicchia-Goal-driven Management of IoT Indoor Environments.pdf">PDF</a><a class="btn btn-box btn-box-link" href="assets/slides/Goal-driven Management of IoT Indoor Environments.pdf">Slides</a><div class="collapse" id="talk-0">This thesis aims at designing and prototyping a goal-oriented system for managing domotics IoT devices by suitably reconciling possibly conflicting goals set by different stakeholders. The prototype exploits micro:bit devices for sensing and actuating, extends the Web of Things standard with REST interfaces, and employs the Prolog language for reasoning.</div></li>
+            
                     </ul>
                 </div>
-            </div>    
+            </div>
         </div>
-
-        <!-- Copyright footer -->
+            <!-- Copyright footer -->
         <footer class="footer pt-4">
             <div class="container" style="text-align: center;">
-              <span class="text-muted">Copyright &copy; 2020 Jacopo Soldani</span>
+              <span class="text-muted">Copyright © 2023 Giuseppe Bisicchia</span>
             </div>
         </footer>
-        
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
