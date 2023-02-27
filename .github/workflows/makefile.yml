@@ -1,0 +1,29 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.8'  
+        
+    - name: Install Dependencies
+      run: pip install PyYAML
+
+    - name: Remove old version
+      run: make clean
+
+    - name: Build last version
+      run: make
