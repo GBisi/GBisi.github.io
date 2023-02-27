@@ -1,6 +1,7 @@
 import yaml
 import importlib
 import time
+import sys
 
 if __name__ == "__main__":
     try:
@@ -43,6 +44,9 @@ if __name__ == "__main__":
                 print(f"Error: {e}")
                 old[page] = None
         time.sleep(1)
+
+        if "once" in sys.argv:
+            break
 
     
 

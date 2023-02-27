@@ -3,10 +3,10 @@ sections:
     title: Contacts
     items:
       - icon: fa fa-envelope
-        text: <a href="%%MAIL%%">giuseppe [dot] bisicchia [at] phd [dot] unipi [dot] it</a>
+        text: <a class="cp-link" href="%%MAIL%%">giuseppe [dot] bisicchia [at] phd [dot] unipi [dot] it</a>
 
       - icon: fa fa-map-marker
         text: Largo B. Pontecorvo 3, 56127 Pisa (PI), Italy 
         
       - icon: fa fa-compass
-        text: Department of Computer Science, Univeristy of Pisa, (<a href="assets/img/map.pdf">Room 392</a>)
+        text: Department of Computer Science, Univeristy of Pisa, (<a class="cp-link" href="assets/img/map.pdf">Room 392</a>)
