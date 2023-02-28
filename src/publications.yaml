@@ -19,8 +19,8 @@ sections:
   - <span class="badge badge-proceedings">&nbsp;&nbsp;</span> G. Bisicchia, S. Forti,
     A. Colla, A. Brogi. <span class="cp-publication-title">Customisable Fault and
     Performance Monitoring Across Multiple Clouds</span>. 13th International Conference
-    on Cloud Computing and Services Science (CLOSER 2023), 2023. <br><a class="btn
-    btn-box btn-box-link" href="https://github.com/di-unipi-socc/cloudWatcher">Repository</a>
+    on Cloud Computing and Services Science (CLOSER), 2023. <br><a class="btn btn-box
+    btn-box-link" href="https://github.com/di-unipi-socc/cloudWatcher">Repository</a>
   main: Accepted for Publication
   type: box
 - items:
@@ -49,7 +49,7 @@ sections:
   - <span class="badge badge-proceedings">&nbsp;&nbsp;</span> G. Bisicchia, S, Forti,
     A. Brogi. <span class="cp-publication-title"><a class="cp-link" href="https://ceur-ws.org/Vol-3002/paper3.pdf">A
     Declarative Goal-oriented Framework for Smart Environments with LPaaS</a></span>.
-    36th Italian Conference on Computational Logic (CILC 2021), 2021. <br><a class="btn
+    36th Italian Conference on Computational Logic (CILC), 2021. <br><a class="btn
     btn-box btn-box-link" data-toggle="collapse" href="#talk-3" role="button" aria-expanded="false"
     aria-controls="talk-3">Abstract</a><a class="btn btn-box btn-box-link" href="https://ceur-ws.org/Vol-3002/paper3.pdf">DOI</a><a
     class="btn btn-box btn-box-link" href="assets/publications/Solomon_CILC2021.pdf">PDF</a><a
