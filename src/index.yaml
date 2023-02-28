@@ -1,10 +1,10 @@
 type: lp
-img: ../assets/img/profile-photo.png
+img: assets/img/profile-photo.png
 alt_img: Giuseppe Bisicchia
 title: <a class="lp-link" href="about.html">Giuseppe Bisicchia</a>
 sub: <a class="lp-link" href="https://dottorato.di.unipi.it/">PhD Student in Computer Science</a>
 desc: '<a class="lp-link" href="https://di.unipi.it/">Department of Computer Science</a>, <a class="lp-link" href="https://www.unipi.it/">University of Pisa</a>, Italy'
-logo: ../assets/img/unipi-logo.svg
+logo: assets/img/unipi-logo.svg
 alt_logo: University of Pisa
 socials:
   - link: https://scholar.google.com/citations?user=7PUTvtYAAAAJ&hl

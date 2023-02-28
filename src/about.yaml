@@ -4,7 +4,7 @@ sections:
     title: <a class="lp-link" href="about.html">Giuseppe Bisicchia</a>
     sub: <a class="lp-link" href="https://dottorato.di.unipi.it/">PhD Student in Computer Science</a>
     desc: '<a class="lp-link" href="https://di.unipi.it/">Department of Computer Science</a>, <a class="lp-link" href="https://www.unipi.it/">University of Pisa</a>, Italy'
-    logo: ../assets/img/unipi-logo.svg 
+    logo: assets/img/unipi-logo.svg 
     alt_logo: University of Pisa
     socials:
       - link: https://scholar.google.com/citations?user=7PUTvtYAAAAJ&hl
@@ -20,7 +20,7 @@ sections:
 
   - type: text_with_img_right
     text: <span class="cp-highlight-text">Giuseppe Bisicchia</span> is a PhD student in Computer Science at the University of Pisa. He has a Double Master's Degree cum laude in Computer Science from the University of Pisa and the University of Malaga. During his Master's, he won a research scholarship funded by GARR Consortium, working as a research fellow on the management of multi-service applications in large-scale and heterogeneous infrastructures such as Cloud-Edge. Currently, he is exploring new research opportunities in the field of the Cloud-Edge continuum. Giuseppe is also a teaching assistant in the Cloud Computing course at the University of Pisa and teaches introductory programming courses at a local middle school. Since 2018, he has been a mentor for the Pisa CoderDojo, teaching young people how to code. 
-    img: ../assets/img/profile-photo.png
+    img: assets/img/profile-photo.png
     img_alt: Giuseppe Bisicchia
 
   - type: timeline
