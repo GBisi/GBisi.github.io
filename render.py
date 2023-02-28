@@ -37,7 +37,7 @@ if __name__ == "__main__":
                         for section in page_config["sections"]:
                             section_template = template.sections[section["type"]]
                             content += section_template.render(section)
-                    with open(f"{page}.html", "w") as f:
+                    with open(f"docs/{page}.html", "w") as f:
                         code = base.render(content, page_config, active=page)
                         f.write(code)
             except Exception as e:

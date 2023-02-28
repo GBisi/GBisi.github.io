@@ -9,4 +9,4 @@ sections:
         text: Largo B. Pontecorvo 3, 56127 Pisa (PI), Italy 
         
       - icon: fa fa-compass
-        text: Department of Computer Science, Univeristy of Pisa, (<a class="cp-link" href="assets/img/map.pdf">Room 392</a>)
+        text: Department of Computer Science, Univeristy of Pisa, (<a class="cp-link" href="../assets/img/map.pdf">Room 392</a>)

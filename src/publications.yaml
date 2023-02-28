@@ -31,7 +31,7 @@ sections:
     btn-box btn-box-link" data-toggle="collapse" href="#talk-4" role="button" aria-expanded="false"
     aria-controls="talk-4">Abstract</a><a class="btn btn-box btn-box-link" href="https://doi.org/10.1093/logcom/exab083">DOI</a><a
     class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/fogbrainx">Repository</a><a
-    class="btn btn-box btn-box-link" href="assets/citations/bisicchia2022declarativeCR.bib">Cite</a><div
+    class="btn btn-box btn-box-link" href="../assets/citations/bisicchia2022declarativeCR.bib">Cite</a><div
     class="collapse" id="talk-4">Developing and releasing multiservice applications
     rely upon a pipeline of automation tools known as Continuous Integration/Continuous
     Deployment. Among those tools, continuous reasoning is exploited by large companies
@@ -52,11 +52,11 @@ sections:
     36th Italian Conference on Computational Logic (CILC 2021), 2021. <br><a class="btn
     btn-box btn-box-link" data-toggle="collapse" href="#talk-3" role="button" aria-expanded="false"
     aria-controls="talk-3">Abstract</a><a class="btn btn-box btn-box-link" href="https://ceur-ws.org/Vol-3002/paper3.pdf">DOI</a><a
-    class="btn btn-box btn-box-link" href="assets/publications/Solomon_CILC2021.pdf">PDF</a><a
+    class="btn btn-box btn-box-link" href="../assets/publications/Solomon_CILC2021.pdf">PDF</a><a
     class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a><a
-    class="btn btn-box btn-box-link" href="assets/slides/A Declarative Goal-oriented
+    class="btn btn-box btn-box-link" href="../assets/slides/A Declarative Goal-oriented
     Framework for Smart Environments with LPaaS - CILC21.pdf">Slides</a><a class="btn
-    btn-box btn-box-link" href="assets/citations/bisicchia2021declarativeGO.bib">Cite</a><div
+    btn-box btn-box-link" href="../assets/citations/bisicchia2021declarativeGO.bib">Cite</a><div
     class="collapse" id="talk-3">Smart environments powered by the Internet of Things
     aim at improving our daily lives by automatically tuning ambient parameters (e.g.
     temperature, interior light) and by achieving energy savings through self-managing
@@ -73,11 +73,11 @@ sections:
     on Smart Computing (SMARTCOMP), 2021. <br><a class="btn btn-box btn-box-link"
     data-toggle="collapse" href="#talk-2" role="button" aria-expanded="false" aria-controls="talk-2">Abstract</a><a
     class="btn btn-box btn-box-link" href="https://doi.org/10.1109/SMARTCOMP52413.2021.00079">DOI</a><a
-    class="btn btn-box btn-box-link" href="assets/publications/Solomon_SMARTCOMP2021.pdf">PDF</a><a
+    class="btn btn-box btn-box-link" href="../assets/publications/Solomon_SMARTCOMP2021.pdf">PDF</a><a
     class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a><a
-    class="btn btn-box btn-box-link" href="assets/slides/DEMOWiP_5_BISICCHIA.pdf">Slides</a><a
-    class="btn btn-box btn-box-link" href="assets/videos/DEMOWiP_5_BISICCHIA.mp4">Video</a><a
-    class="btn btn-box btn-box-link" href="assets/citations/bisicchia2021declarativeGM.bib">Cite</a><div
+    class="btn btn-box btn-box-link" href="../assets/slides/DEMOWiP_5_BISICCHIA.pdf">Slides</a><a
+    class="btn btn-box btn-box-link" href="../assets/videos/DEMOWiP_5_BISICCHIA.mp4">Video</a><a
+    class="btn btn-box btn-box-link" href="../assets/citations/bisicchia2021declarativeGM.bib">Cite</a><div
     class="collapse" id="talk-2">Smart environments enabled by the Internet of Things
     aim at improving our daily lives by automatically tuning ambient parameters and
     by achieving energy savings through self-managing cyber-physical systems. Commercial
@@ -98,31 +98,32 @@ sections:
     href="#talk-1" role="button" aria-expanded="false" aria-controls="talk-1">Abstract</a><a
     class="btn btn-box btn-box-link" href="https://etd.adm.unipi.it/theses/available/etd-06292022-170952/">DOI</a><a
     class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/FogArmX">Repository</a><a
-    class="btn btn-box btn-box-link" href="assets/slides/Continuous Management of
-    Multi-Service Applications over the Cloud-IoT Continuum.pdf">Slides</a><div class="collapse"
-    id="talk-1">Designing platforms and methodologies for the orchestration and management
-    of multi-service applications in the Cloud-IoT continuum is becoming more and
-    more a problem of primary importance, due to the current paradigm shifts in the
-    applications development and the new computing paradigms. In light of these needs,
-    in this thesis, we study and implement innovative orchestration techniques, based
-    on the Continuous Reasoning approach, to achieve a scalable, continuous and QoS-compliant
-    management of multi-service applications on large-scale, geographically distributed
-    Cloud-IoT networks. We propose a declarative methodology, and its prototype FogBrainX,
-    to speed up QoS-aware, decision-making in Cloud-IoT application management, and
-    we design and develop a next-generation orchestrator prototype, FogArm, to perform
-    continuous and QoS-compliant management of multi-service applications in Cloud-IoT
-    settings, in continuity with either CI/CD pipelines and infrastructure distributed
-    monitoring tools. Finally, both the methodology and the orchestrator are extensively
-    assessed. To the best of our knowledge, FogArm represents a first complete prototype
-    of a next-gen orchestrator for the continuous QoS-compliant management of multi-service
-    applications on geographically distributed Cloud-IoT nodes.</div>
+    class="btn btn-box btn-box-link" href="../assets/slides/Continuous Management
+    of Multi-Service Applications over the Cloud-IoT Continuum.pdf">Slides</a><div
+    class="collapse" id="talk-1">Designing platforms and methodologies for the orchestration
+    and management of multi-service applications in the Cloud-IoT continuum is becoming
+    more and more a problem of primary importance, due to the current paradigm shifts
+    in the applications development and the new computing paradigms. In light of these
+    needs, in this thesis, we study and implement innovative orchestration techniques,
+    based on the Continuous Reasoning approach, to achieve a scalable, continuous
+    and QoS-compliant management of multi-service applications on large-scale, geographically
+    distributed Cloud-IoT networks. We propose a declarative methodology, and its
+    prototype FogBrainX, to speed up QoS-aware, decision-making in Cloud-IoT application
+    management, and we design and develop a next-generation orchestrator prototype,
+    FogArm, to perform continuous and QoS-compliant management of multi-service applications
+    in Cloud-IoT settings, in continuity with either CI/CD pipelines and infrastructure
+    distributed monitoring tools. Finally, both the methodology and the orchestrator
+    are extensively assessed. To the best of our knowledge, FogArm represents a first
+    complete prototype of a next-gen orchestrator for the continuous QoS-compliant
+    management of multi-service applications on geographically distributed Cloud-IoT
+    nodes.</div>
   - <span class="badge badge-misc">&nbsp;&nbsp;</span>  G. Bisicchia. <span class="cp-publication-title">Goal-driven
     Management of IoT Indoor Environments</span>. BSc Thesis, PhD Programme in Computer
     Science, University of Pisa, Pisa, Italy, a.y. 2019/2020, 2020. <br><a class="btn
     btn-box btn-box-link" data-toggle="collapse" href="#talk-0" role="button" aria-expanded="false"
-    aria-controls="talk-0">Abstract</a><a class="btn btn-box btn-box-link" href="assets/publications/BScThesisBisicchia-Goal-driven
+    aria-controls="talk-0">Abstract</a><a class="btn btn-box btn-box-link" href="../assets/publications/BScThesisBisicchia-Goal-driven
     Management of IoT Indoor Environments.pdf">PDF</a><a class="btn btn-box btn-box-link"
-    href="assets/slides/Goal-driven Management of IoT Indoor Environments.pdf">Slides</a><div
+    href="../assets/slides/Goal-driven Management of IoT Indoor Environments.pdf">Slides</a><div
     class="collapse" id="talk-0">This thesis aims at designing and prototyping a goal-oriented
     system for managing domotics IoT devices by suitably reconciling possibly conflicting
     goals set by different stakeholders. The prototype exploits micro:bit devices

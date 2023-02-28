@@ -20,7 +20,7 @@ class Template:
         <title>{self.title}</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="src/templates/academic_resume_js/academic-resume.css">
+        <link rel="stylesheet" href="../src/templates/academic_resume_js/academic-resume.css">
         <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,7 @@ class Template:
         if self.icon is not None:
             html += f"""<link href="{self.icon}" rel="shortcut icon" type="image/vnd.microsoft.icon" />"""
         html+="""
-        <script src="src/templates/academic_resume_js/obfuscation.js" defer></script>
+        <script src="../src/templates/academic_resume_js/obfuscation.js" defer></script>
             <script>
             document.addEventListener("DOMContentLoaded", function(){
             var els = document.getElementsByTagName("a");
@@ -116,7 +116,7 @@ class Template:
         <title>{self.title}</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="src/templates/academic_resume_js/academic-resume.css">
+        <link rel="stylesheet" href="../src/templates/academic_resume_js/academic-resume.css">
         <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -124,7 +124,7 @@ class Template:
         if self.icon is not None:
             html += f"""<link href="{self.icon}" rel="shortcut icon" type="image/vnd.microsoft.icon" />"""
         html+="""
-            <script src="src/templates/academic_resume_js/obfuscation.js" defer></script>
+            <script src="../src/templates/academic_resume_js/obfuscation.js" defer></script>
             <script>
             document.addEventListener("DOMContentLoaded", function(){
             var els = document.getElementsByTagName("a");

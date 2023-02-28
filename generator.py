@@ -53,22 +53,22 @@ def generate_publications(file):
                 buttons += generate_button("DOI", row["DOI"])
             
             if row["PDF"] != "":
-                buttons += generate_button("PDF", "assets/publications/"+row["PDF"])
+                buttons += generate_button("PDF", "../assets/publications/"+row["PDF"])
 
             if row["Repository"] != "":
                 buttons += generate_button("Repository", row["Repository"])
 
             if row["Slides"] != "":
-                buttons += generate_button("Slides", "assets/slides/"+row["Slides"])
+                buttons += generate_button("Slides", "../assets/slides/"+row["Slides"])
 
             if row["Video"] != "":
-                buttons += generate_button("Video", "assets/videos/"+row["Video"])
+                buttons += generate_button("Video", "../assets/videos/"+row["Video"])
 
             if row["Poster"] != "":
-                buttons += generate_button("Poster", "assets/posters/"+row["Poster"])
+                buttons += generate_button("Poster", "../assets/posters/"+row["Poster"])
 
             if row["Citation"] != "":
-                buttons += generate_button("Cite", "assets/citations/"+row["Citation"])
+                buttons += generate_button("Cite", "../assets/citations/"+row["Citation"])
 
             if buttons != "":
                 s += '<br>' + buttons
