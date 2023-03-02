@@ -1,0 +1,16 @@
+sections:
+- main: FogBrainX
+  sub: Continuous Reasoning for managing next-gen Cloud-Edge applications in continuity
+    with the CI/CD pipeline
+  text: Developing and releasing multiservice applications rely upon a pipeline of
+    automation tools known as Continuous Integration/Continuous Deployment. Among
+    those tools, Continuous Reasoning is exploited by large companies to perform incremental
+    static analyses on their code commits as soon as they are integrated into a shared
+    codebase. Within this context, we extend continuous reasoning towards the continuous
+    QoS- and context-aware management of multiservice applications in Cloud-IoT scenarios.
+    FogBrainX is a novel continuous reasoning methodology that supports runtime decision
+    on service placement by reacting both to changes in the infrastructure and in
+    the application requirements, and capable of suggesting migrations only for services
+    affected by such changes. Experimental results show that our approach brings considerable
+    speed-up in comparison with an exhaustive search employing non-incremental reasoning.
+  type: big_box

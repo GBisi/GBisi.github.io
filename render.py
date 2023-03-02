@@ -2,6 +2,7 @@ import yaml
 import importlib
 import time
 import sys
+import os
 
 if __name__ == "__main__":
     try:
@@ -43,6 +44,27 @@ if __name__ == "__main__":
             except Exception as e:
                 print(f"Error: {e}")
                 old[page] = None
+
+        try:
+            ls = os.listdir("src/rototypes")
+            if len(ls) > 0:
+                for file in ls:
+                    if file.endswith(".yaml") and "prototypes/"+file[:-5] not in old or old["prototypes/"+file[:-5]] != file:
+                        with open(f"src/prototypes/{file}", "r") as f:
+                            page_config = yaml.load(f, Loader=yaml.FullLoader)
+                        print(f"Rendering prototype {file}")
+                        old["prototypes/"+file[:-5]] = file
+                        content = ""
+                        if "sections" in page_config:
+                            for section in page_config["sections"]:
+                                section_template = template.sections[section["type"]]
+                                content += section_template.render(section)
+                        with open(f"{file[:-5]}.html", "w") as f:
+                            code = base.render(content, page_config)
+                            f.write(code)
+                
+        except FileNotFoundError:
+            pass
         time.sleep(1)
 
         if "once" in sys.argv:

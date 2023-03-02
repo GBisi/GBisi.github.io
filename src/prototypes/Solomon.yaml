@@ -1,0 +1,10 @@
+sections:
+- main: Solomon++
+  sub: A declarative framework to specify customisable policies for mediating contrasting
+    (user and/or global) goals and actuator settings in smart environments
+  text: Solomon++ is a declarative open-source framework to represent hierarchical
+    smart environments, user-set goals and customisable energy-aware mediation policies
+    to reconcile contrasting (user and/or global) goals and relative actuator settings,
+    encompassing multiple IoT systems considering also user roles and sustainability
+    objectives.
+  type: big_box

@@ -1,0 +1,11 @@
+sections:
+- main: cloudWatcher
+  sub: An open-source prototype tool to perform highly customisable fault and performance
+    monitoring across multiple Clouds
+  text: cloudWatcher aims at monitoring customised health metrics (e.g., the availability
+    of a cloud service and its performance, the status of the network, the performance
+    of a VM's disk) of multi-Cloud OpenStack systems, by providing configurable alerts
+    associated with such measurements, and it is extensible to accommodate further
+    metrics. Such an objective is pursued through a design that is based on a declarative
+    and modular methodology for monitoring multiple datacentres (DCs).
+  type: big_box

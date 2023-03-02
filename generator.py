@@ -1,5 +1,6 @@
 import yaml
 import csv
+import os
 
 
 def generate_button(name, link):
@@ -105,5 +106,73 @@ def generate_publications(file):
     with open("src/publications.yaml", "w") as f:
         yaml.dump(full, f, default_flow_style=False)
 
+
+def generate_prototype_page(row):
+    page = {
+        "sections": [
+            {
+                "type": "big_box",
+                "main": row["Title"],
+                "sub": row["Sub"],
+                "text": row["Desc"]
+
+            }
+        ]
+    }
+
+    if not os.path.exists("src/prototypes"):
+        os.makedirs("src/prototypes")
+
+    with open("src/prototypes/"+row["ProtoID"]+".yaml", "w") as f:
+        f.write(yaml.dump(page, default_flow_style=False))
+
+
+
+
+def generate_prototype_row(row):
+    s = ""
+    if row["Repo"] != "":
+        s += "<span class='cp-publication-title'><a class='cp-link' href='"+row["Repo"]+"'>"+row["Title"]+"</a></span>"
+    else:
+        s += "<span class='cp-publication-title'>"+row["Title"]+"</span>"
+
+    s += " - " + row["Sub"] + "."
+
+    buttons = ""
+
+    buttons += generate_button("Details", row["ProtoID"]+".html")
+
+    s += '<br>' + buttons
+
+    generate_prototype_page(row)
+
+    return s
+
+def generate_prototypes(file, dest):
+    with open(file, "r") as f:
+        reader = csv.DictReader(open(file, "r"))
+    with open("src/"+dest, "r") as f:
+        data = yaml.load(f, Loader=yaml.FullLoader)
+    protos = None
+    if "sections" in data:
+        for section in data["sections"]:
+            if "main" in section and section["main"] == "Prototypes":
+                protos = section
+                break
+        
+    if protos is None:
+        return
+    
+    protos["items"] = []
+    
+    for row in reader:
+        protos["items"].append(generate_prototype_row(row))
+
+    protos["items"].reverse()
+
+    with open("src/"+dest, "w") as f:
+        yaml.dump(data, f, default_flow_style=False)
+
 if __name__ == "__main__":
     generate_publications("Publications.csv")
+    generate_prototypes("Prototypes.csv", "research.yaml")
