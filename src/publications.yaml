@@ -15,7 +15,8 @@ sections:
   - '<span class="badge badge-journal">&nbsp;&nbsp;</span> G. Bisicchia, S. Forti,
     A. Brogi. <span class="cp-publication-title">Sustainable Goal-Oriented Smart Environments:
     a Declarative Programming Approach</span>. Journal of Logic and Computation, 2023.
-    <br><a class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a>'
+    <br><a class="btn btn-box btn-box-link" href="Solomon.html">Prototype</a><a class="btn
+    btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a>'
   main: Accepted for Publication
   type: box
 - items:
@@ -24,7 +25,8 @@ sections:
     Continuous Reasoning in the Cloud-IoT Continuum</a></span>. Journal of Logic and
     Computation, Volume 32, Issue 2, March 2022, Pages 206-232, 2022. <br><a class="btn
     btn-box btn-box-link" data-toggle="collapse" href="#talk-4" role="button" aria-expanded="false"
-    aria-controls="talk-4">Abstract</a><a class="btn btn-box btn-box-link" href="https://doi.org/10.1093/logcom/exab083">DOI</a><a
+    aria-controls="talk-4">Abstract</a><a class="btn btn-box btn-box-link" href="FogBrain.html">Prototype</a><a
+    class="btn btn-box btn-box-link" href="https://doi.org/10.1093/logcom/exab083">DOI</a><a
     class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/fogbrainx">Repository</a><a
     class="btn btn-box btn-box-link" href="assets/citations/bisicchia2022declarativeCR.bib">Cite</a><div
     class="collapse" id="talk-4">Developing and releasing multiservice applications
@@ -46,7 +48,8 @@ sections:
     Declarative Goal-oriented Framework for Smart Environments with LPaaS</a></span>.
     36th Italian Conference on Computational Logic (CILC), 2021. <br><a class="btn
     btn-box btn-box-link" data-toggle="collapse" href="#talk-3" role="button" aria-expanded="false"
-    aria-controls="talk-3">Abstract</a><a class="btn btn-box btn-box-link" href="https://ceur-ws.org/Vol-3002/paper3.pdf">DOI</a><a
+    aria-controls="talk-3">Abstract</a><a class="btn btn-box btn-box-link" href="Solomon.html">Prototype</a><a
+    class="btn btn-box btn-box-link" href="https://ceur-ws.org/Vol-3002/paper3.pdf">DOI</a><a
     class="btn btn-box btn-box-link" href="assets/publications/Solomon_CILC2021.pdf">PDF</a><a
     class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a><a
     class="btn btn-box btn-box-link" href="assets/slides/A Declarative Goal-oriented
@@ -67,7 +70,8 @@ sections:
     Goal Mediation in Smart Environments</a></span>. 2021 IEEE International Conference
     on Smart Computing (SMARTCOMP), 2021. <br><a class="btn btn-box btn-box-link"
     data-toggle="collapse" href="#talk-2" role="button" aria-expanded="false" aria-controls="talk-2">Abstract</a><a
-    class="btn btn-box btn-box-link" href="https://doi.org/10.1109/SMARTCOMP52413.2021.00079">DOI</a><a
+    class="btn btn-box btn-box-link" href="Solomon.html">Prototype</a><a class="btn
+    btn-box btn-box-link" href="https://doi.org/10.1109/SMARTCOMP52413.2021.00079">DOI</a><a
     class="btn btn-box btn-box-link" href="assets/publications/Solomon_SMARTCOMP2021.pdf">PDF</a><a
     class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a><a
     class="btn btn-box btn-box-link" href="assets/slides/DEMOWiP_5_BISICCHIA.pdf">Slides</a><a
@@ -115,7 +119,8 @@ sections:
     Management of IoT Indoor Environments</span>. BSc Thesis, PhD Programme in Computer
     Science, University of Pisa, Pisa, Italy, a.y. 2019/2020, 2020. <br><a class="btn
     btn-box btn-box-link" data-toggle="collapse" href="#talk-0" role="button" aria-expanded="false"
-    aria-controls="talk-0">Abstract</a><a class="btn btn-box btn-box-link" href="assets/publications/BScThesisBisicchia-Goal-driven
+    aria-controls="talk-0">Abstract</a><a class="btn btn-box btn-box-link" href="Solomon.html">Prototype</a><a
+    class="btn btn-box btn-box-link" href="assets/publications/BScThesisBisicchia-Goal-driven
     Management of IoT Indoor Environments.pdf">PDF</a><a class="btn btn-box btn-box-link"
     href="assets/slides/Goal-driven Management of IoT Indoor Environments.pdf">Slides</a><div
     class="collapse" id="talk-0">This thesis aims at designing and prototyping a goal-oriented

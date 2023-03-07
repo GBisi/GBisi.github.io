@@ -4,6 +4,7 @@ copyright: 'Copyright © 2023 Giuseppe Bisicchia'
 icon: assets/icons/favicon.ico
 navbar:
   - About: about.html
+  - Research: research.html
   - Publications: publications.html
   - Teaching: teaching.html
   - Contacts: contacts.html

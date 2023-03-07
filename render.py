@@ -44,9 +44,9 @@ if __name__ == "__main__":
             except Exception as e:
                 print(f"Error: {e}")
                 old[page] = None
-
+        
         try:
-            ls = os.listdir("src/rototypes")
+            ls = os.listdir("src/prototypes")
             if len(ls) > 0:
                 for file in ls:
                     if file.endswith(".yaml") and "prototypes/"+file[:-5] not in old or old["prototypes/"+file[:-5]] != file:

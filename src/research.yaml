@@ -8,7 +8,7 @@ sections:
   - Multi-Service Application & Microservices, Cloud-Edge Continuum, IoT Devices,
     Continuous Management & Continuous Reasoning, Declarative Methodologies, QoS-aware
     Orchestration, Monitoring of Geographically Distributed Systems.
-  main: Orchestration of Multi-Service Applications on Cloud-Edge Continuum
+  main: Orchestration of Multi-Service Applications over the Cloud-Edge Continuum
   type: box
 - items:
   - Declarative Frameworks for Smart Environments, Customisable Policies, Goal-oriented
@@ -17,16 +17,19 @@ sections:
   main: Management of Smart Environments
   type: box
 - items:
-  - <span class='cp-publication-title'><a class='cp-link' href='https://github.com/di-unipi-socc/cloudWatcher'>cloudWatcher</a></span>
+  - <span class='cp-publication-title'><a class='cp-link' href='cloudWatcher.html'>cloudWatcher</a></span>
     - An open-source prototype tool to perform highly customisable fault and performance
-    monitoring across multiple Clouds.<br><a class="btn btn-box btn-box-link" href="cloudWatcher.html">Details</a>
-  - <span class='cp-publication-title'><a class='cp-link' href='https://github.com/di-unipi-socc/fogbrainx'>FogBrainX</a></span>
+    monitoring across multiple Clouds.<br><a class="btn btn-box btn-box-link" href="cloudWatcher.html">Details</a><a
+    class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/cloudWatcher">Repository</a>
+  - <span class='cp-publication-title'><a class='cp-link' href='FogBrain.html'>FogBrainX</a></span>
     - Continuous Reasoning for managing next-gen Cloud-Edge applications in continuity
-    with the CI/CD pipeline.<br><a class="btn btn-box btn-box-link" href="FogBrain.html">Details</a>
-  - <span class='cp-publication-title'><a class='cp-link' href='https://github.com/di-unipi-socc/Solomon'>Solomon++</a></span>
+    with the CI/CD pipeline.<br><a class="btn btn-box btn-box-link" href="FogBrain.html">Details</a><a
+    class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/fogbrainx">Repository</a>
+  - <span class='cp-publication-title'><a class='cp-link' href='Solomon.html'>Solomon++</a></span>
     - A declarative framework to specify customisable policies for mediating contrasting
     (user and/or global) goals and actuator settings in smart environments.<br><a
-    class="btn btn-box btn-box-link" href="Solomon.html">Details</a>
+    class="btn btn-box btn-box-link" href="Solomon.html">Details</a><a class="btn
+    btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a>
   main: Prototypes
   title: Prototypes
   type: box
