@@ -121,6 +121,11 @@ def generate_prototype_page(row, pubs=None):
                 "sub": row["Sub"],
                 "text": row["Desc"]
 
+            },
+            {
+                "type": "box",
+                "main": "Publications",
+                "items": []
             }
         ]
     }
@@ -128,10 +133,18 @@ def generate_prototype_page(row, pubs=None):
     if not os.path.exists("src/prototypes"):
         os.makedirs("src/prototypes")
 
+    page["sections"][0]["text"] += "<br><br>" + generate_button("Repository", row["Repo"])
+
     if pubs is not None:
         pubs = _generate_publications(pubs, proto=row["ProtoID"])["sections"][1:]
-        
-        print(pubs)
+        items = []
+        for p in pubs:
+            items += p["items"]
+
+        page["sections"][1]["items"] = items
+
+        if len(items) == 0:
+            page["sections"].pop(1)
 
     with open("src/prototypes/"+row["ProtoID"]+".yaml", "w") as f:
         f.write(yaml.dump(page, default_flow_style=False))

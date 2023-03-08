@@ -7,5 +7,6 @@ sections:
     of a VM's disk) of multi-Cloud OpenStack systems, by providing configurable alerts
     associated with such measurements, and it is extensible to accommodate further
     metrics. Such an objective is pursued through a design that is based on a declarative
-    and modular methodology for monitoring multiple datacentres (DCs).
+    and modular methodology for monitoring multiple datacentres (DCs).<br><br><a class="btn
+    btn-box btn-box-link" href="https://github.com/di-unipi-socc/cloudWatcher">Repository</a>
   type: big_box

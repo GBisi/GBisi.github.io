@@ -39,7 +39,3 @@ sections:
   main: Organisator
   title: Other Activities
   type: box
-- items:
-  - Conf
-  main: Speaker
-  type: box

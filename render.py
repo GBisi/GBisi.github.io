@@ -60,7 +60,7 @@ if __name__ == "__main__":
                                 section_template = template.sections[section["type"]]
                                 content += section_template.render(section)
                         with open(f"{file[:-5]}.html", "w") as f:
-                            code = base.render(content, page_config)
+                            code = base.render(content, page_config, active="research")
                             f.write(code)
                 
         except FileNotFoundError:
