@@ -10,10 +10,25 @@ sections:
   type: big_box
 - items:
   - '<span class="badge badge-journal">&nbsp;&nbsp;</span> G. Bisicchia, S. Forti,
-    A. Brogi. <span class="cp-publication-title">Sustainable Goal-Oriented Smart Environments:
-    a Declarative Programming Approach</span>. Journal of Logic and Computation, 2023.
-    <br><a class="btn btn-box btn-box-link" href="Solomon.html">Prototype</a><a class="btn
-    btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a>'
+    A. Brogi. <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1093/logcom/exad015">Sustainable
+    Goal-Oriented Smart Environments: a Declarative Programming Approach</a></span>.
+    Journal of Logic and Computation, 2023. <br><a class="btn btn-box btn-box-link"
+    data-toggle="collapse" href="#talk-3" role="button" aria-expanded="false" aria-controls="talk-3">Abstract</a><a
+    class="btn btn-box btn-box-link" href="Solomon.html">Prototype</a><a class="btn
+    btn-box btn-box-link" href="https://doi.org/10.1093/logcom/exad015">DOI</a><a
+    class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a><a
+    class="btn btn-box btn-box-link" href="assets/citations/bisicchia2023sustainable.bib">Cite</a><div
+    class="collapse" id="talk-3">The sustainable management of smart environments
+    enabled by the Internet of Things (IoT) requires new methodologies and tools to
+    suitably handle potentially many users and their objectives on cyber-physical
+    systems, e.g. smart lighting, smart A/C. In this article, we propose a declarative
+    framework to model IoT-enabled smart environments. Our methodology permits (i)
+    expressing user roles and hierarchical environments, (ii) declaring customized
+    policies to mediate user objectives into a target state and (iii) determining
+    valid settings for IoT actuators to achieve such a target also reducing energy
+    consumption. An open-source Prolog prototype of the framework is showcased over
+    two lifelike motivating examples and its scalability is assessed at increasing
+    sizes of the managed smart environment.</div>'
   - <span class="badge badge-proceedings">&nbsp;&nbsp;</span> G. Bisicchia, S, Forti,
     A. Brogi. <span class="cp-publication-title"><a class="cp-link" href="https://ceur-ws.org/Vol-3002/paper3.pdf">A
     Declarative Goal-oriented Framework for Smart Environments with LPaaS</a></span>.

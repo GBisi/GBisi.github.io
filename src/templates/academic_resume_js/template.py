@@ -265,6 +265,10 @@ class SectionText:
 
 class SectionBox:
     def render(config):
+
+        if len(config["items"]) == 0:
+            return ""
+
         html = """<div class="container">"""
         if "title" in config:
             html += f"""
