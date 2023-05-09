@@ -19,12 +19,12 @@ sections:
     A. Brogi. <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1093/logcom/exad015">Sustainable
     Goal-Oriented Smart Environments: a Declarative Programming Approach</a></span>.
     Journal of Logic and Computation, 2023. <br><a class="btn btn-box btn-box-link"
-    data-toggle="collapse" href="#talk-5" role="button" aria-expanded="false" aria-controls="talk-5">Abstract</a><a
+    data-toggle="collapse" href="#talk-6" role="button" aria-expanded="false" aria-controls="talk-6">Abstract</a><a
     class="btn btn-box btn-box-link" href="Solomon.html">Prototype</a><a class="btn
     btn-box btn-box-link" href="https://doi.org/10.1093/logcom/exad015">DOI</a><a
     class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/Solomon">Repository</a><a
     class="btn btn-box btn-box-link" href="assets/citations/bisicchia2023sustainable.bib">Cite</a><div
-    class="collapse" id="talk-5">The sustainable management of smart environments
+    class="collapse" id="talk-6">The sustainable management of smart environments
     enabled by the Internet of Things (IoT) requires new methodologies and tools to
     suitably handle potentially many users and their objectives on cyber-physical
     systems, e.g. smart lighting, smart A/C. In this article, we propose a declarative
@@ -35,6 +35,26 @@ sections:
     consumption. An open-source Prolog prototype of the framework is showcased over
     two lifelike motivating examples and its scalability is assessed at increasing
     sizes of the managed smart environment.</div>'
+  - <span class="badge badge-proceedings">&nbsp;&nbsp;</span> G. Bisicchia, S. Forti,
+    A. Colla. A. Brogi. <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.5220/0011849500003488">Customisable
+    Fault and Performance Monitoring Across Multiple Clouds</a></span>. 13th International
+    Conference on Cloud Computing and Services Science (CLOSER), 2023. <br><a class="btn
+    btn-box btn-box-link" data-toggle="collapse" href="#talk-5" role="button" aria-expanded="false"
+    aria-controls="talk-5">Abstract</a><a class="btn btn-box btn-box-link" href="cloudWatcher.html">Prototype</a><a
+    class="btn btn-box btn-box-link" href="https://doi.org/10.5220/0011849500003488">DOI</a><a
+    class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/cloudWatcher">Repository</a><a
+    class="btn btn-box btn-box-link" href="assets/slides/Customisable_Fault_and_Performance_Monitoring_Across_Multiple_Clouds.pdf">Slides</a><a
+    class="btn btn-box btn-box-link" href="assets/citations/bisicchia2023customisable.bib">Cite</a><div
+    class="collapse" id="talk-5">Monitoring the proper functioning and performance
+    of an infrastructure spanning multiple Cloud datacentres is challenging. It requires
+    continuously aggregating monitored data across multiple source machines and processing
+    them so to obtain useful alerts and insights. In this article, we propose a simple
+    open-source prototype tool to perform highly customisable fault and performance
+    monitoring across multiple Clouds. Differently from commercial tools, our prototype
+    is simpler to deploy and it can be configured through a declarative approach,
+    by simply specifying data monitoring tasks and aggregation policies. We illustrate
+    such peculiarities over a use case relying on three datacentres under the Italian
+    Research and Education Network Consortium.</div>
   - <span class="badge badge-journal">&nbsp;&nbsp;</span> S. Forti, G. Bisicchia,
     A. Brogi. <span class="cp-publication-title"><a class="cp-link" href="https://doi.org/10.1093/logcom/exab083">Declarative
     Continuous Reasoning in the Cloud-IoT Continuum</a></span>. Journal of Logic and

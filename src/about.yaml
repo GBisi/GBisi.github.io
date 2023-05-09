@@ -26,7 +26,8 @@ sections:
   - type: timeline
     title: Experience
     items:
-      - Jan 2023 - Now, <span class="cp-highlight-text">Teaching Assistant</span> in the <em>Cloud Computing</em> course, University of Pisa, Italy.
+      - May 2023 - Jun 2023, <span class="cp-highlight-text">Visiting PhD Student</span> on the topic '<em>Software Engineering for Quantum Computing</em>', University of Extremadura and COMPUTAEX Foundation, Spain.
+      - Jan 2023 - Jun 2023, <span class="cp-highlight-text">Teaching Assistant</span> in the <em>Cloud Computing</em> course, University of Pisa, Italy.
       - Mar 2022 - Oct 2022, <span class="cp-highlight-text">Research Fellow</span> on the topic '<em>Continuous, Autonomic and QoS-compliant Management of Applications on the GARR Network</em>', GARR Consortium, Italy.
       - Mar 2021 - Mar 2022, <span class="cp-highlight-text">Research Fellow</span> on the topic '<em>Continuous Reasoning for the QoS-compliant Management of Services on Cloud-IoT Infrastructures</em>', GARR Consortium, Italy.
 

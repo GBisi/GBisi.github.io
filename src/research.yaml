@@ -5,6 +5,12 @@ sections:
   title: Research Interests
   type: text
 - items:
+  - Quantum Computing, Software Engineering, Hybrid Classical-Quantum Cloud & Services,
+    Hybrid Classical-Quantum Ecosystems, Service Engineering, Quantum Languages &
+    Abstractions.
+  main: Software Engineering for Quantum Computing
+  type: box
+- items:
   - Multi-Service Application & Microservices, Cloud-Edge Continuum, IoT Devices,
     Continuous Management & Continuous Reasoning, Declarative Methodologies, QoS-aware
     Orchestration, Monitoring of Geographically Distributed Systems.
