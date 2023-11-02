@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Giuseppe Bisicchia</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="src/templates/academic_resume_js/academic-resume.css">
+        <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/icons/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+            <script src="src/templates/academic_resume_js/obfuscation.js" defer></script>
+            <script>
+            document.addEventListener("DOMContentLoaded", function(){
+            var els = document.getElementsByTagName("a");
+            for (var i = 0, l = els.length; i < l; i++) {
+                var el = els[i];
+                if (el.href.includes("%%MAIL%%")) {
+                    el.href = decode("`T\\_gb-Z\\hfXccX!U\\f\\VV[\\T3c[W!ha\\c\\!\\g");
+                }
+            }});
+            </script>
+        </head>
+    <body>
+        
+            <!-- Navigation Bar-->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark cp-navbar">
+                <a class="navbar-brand cp-brand" href="index.html">GB</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jsNavBar" aria-controls="jsNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="jsNavBar">
+                    <div class="navbar-nav ml-auto">
+                
+                            <a class="nav-item nav-link" href="about.html">About</a>
+                        <a class="nav-item nav-link active" href="research.html">Research</a>
+                            <a class="nav-item nav-link" href="publications.html">Publications</a>
+                            <a class="nav-item nav-link" href="teaching.html">Teaching</a>
+                            <a class="nav-item nav-link" href="contacts.html">Contacts</a>
+                    </div> 
+                </div>
+            </nav>
+            <div class="container">
+            <div class="row pt-4">
+            
+        
+                <div class="col">                    
+                    <div class="jumbotron cp-shaded">
+                        <h3 class="cp-title">Quantum Broker</h3>
+                        <h5>
+                            A fully customisable and interoperable quantum tool to distribute quantum computations among multiple quantum computers
+                        </h5>
+                        <hr class="my-4">
+                        <p>
+                            The prototype of a tool for distributing quantum computations among several independent quantum computers through an innovative shot-by-shot approach and enabling users to encode their run-time requirements as load distribution policies through a Domain Specific Language.<br><br><a class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/QuantumBroker">Repository</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div><div class="container">
+            <div class="row pt-4">
+            
+                <div class="col">
+                    <ul class="list-group">
+                        <li class="list-group-item cp-shaded"><span class="cp-title">Publications</span></li>
+        <li class="list-group-item"><span class="badge badge-proceedings">&nbsp;&nbsp;</span> G. Bisicchia, J. Garcia-Alonso, J. M. Murillo, A. Brogi. <span class="cp-publication-title">Distributing Quantum Computations, by Shots</span>.  21st International Conference on Service Oriented Computing (ICSOC), 2023. <br><a class="btn btn-box btn-box-link" data-toggle="collapse" href="#talk-1" role="button" aria-expanded="false" aria-controls="talk-1">Abstract</a><a class="btn btn-box btn-box-link" href="QBroker.html">Prototype</a><a class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/QuantumBroker">Repository</a><a class="btn btn-box btn-box-link" href="assets/posters/Distributing Quantum Programs Shot by Shot.pdf">Poster</a><div class="collapse" id="talk-1">Quantum Process Units (QPUs) are becoming more widely accessible to the public. Nonetheless, they still are very susceptible to noise and feature only a small amount of qubits, making it possible to only execute short quantum computations. Facing this problem, several approaches were proposed to make the most of the present situation, either by distributing the Quantum load, sending different Quantum programs to different QPUs or by distributing Quantum program fragments, by cutting a Quantum program into multiple smaller chunks. Here, we propose a change of perspective. Due to the probabilistic nature of Quantum Mechanics, it is usually required to iterate the execution of a Quantum program numerous times or shots. We suggest considering the shots dimension while determining how to distribute quantum computations. In this paper, we design and develop a methodology to distribute the shots of a Quantum program among many QPUs. Exploiting multiple QPUs improves the resilience to potential QPUs failures. Our solution also enables users to directly encode, through a proposed DSL, their own distribution strategies according to their needs and considered scenarios, offering an expressive and customisable approach. Finally, we showcase a prototype implementation and discuss a life-like use case that can only be addressed by relying on our approach.</div></li>
+            <li class="list-group-item"><span class="badge badge-proceedings">&nbsp;&nbsp;</span> G. Bisicchia, J. Garcia-Alonso, J. M. Murillo, A. Brogi. <span class="cp-publication-title">Dispatching Shots Among Multiple Quantum Computers: an Architectural Proposal</span>. 4th IEEE International Conference on Quantum Computing and Engineering (QCE), 2023. <br><a class="btn btn-box btn-box-link" data-toggle="collapse" href="#talk-0" role="button" aria-expanded="false" aria-controls="talk-0">Abstract</a><a class="btn btn-box btn-box-link" href="QBroker.html">Prototype</a><a class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/QuantumBroker">Repository</a><a class="btn btn-box btn-box-link" href="assets/slides/Dispatching Shots Among Multiple Quantum Computers an Architectural Proposal.pdf">Slides</a><a class="btn btn-box btn-box-link" href="assets/posters/Distributing Quantum Programs Shot by Shot.pdf">Poster</a><div class="collapse" id="talk-0">Quantum Computing is continuously evolving and expanding. As time goes by, more and more Quantum Computer implementations become available, each of them with their own features. In such a scenario, it can be difficult for developers to identify which Quantum Computer is the most suitable for their needs. In this paper, different from current works presenting strategies to select only one Quantum Computer, we propose a change of perspective. Indeed, due to the probabilistic nature of Quantum Mechanics, performing a computation in a Quantum Computer usually requires iterating the same execution many times (called shots), to eventually end with a distribution of the final results. Leveraging this need, our architecture enables selecting many Quantum Computers for the same circuit and spreading the shots among them. Such a mechanism offers also the possibility for developers to access the partial distributions obtained from the output of a subset of the selected computers. Finally, our architecture proposes to decouple the decision process from the actual execution of such a decision, by enabling developers to encode their specific custom policies.</div></li>
+            
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <!-- Copyright footer -->
+        <footer class="footer pt-4">
+            <div class="container" style="text-align: center;">
+              <span class="text-muted">Copyright © 2023 Giuseppe Bisicchia</span>
+            </div>
+        </footer>
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -11,7 +11,58 @@ sections:
     >WoS</a>, and\n                        <a class=\"cp-link\" href=\"https://orcid.org/0000-0002-1187-8391\"\
     >ORCID</a>."
   type: text
-- items: []
+- items:
+  - <span class="badge badge-proceedings">&nbsp;&nbsp;</span> G. Bisicchia, J. Garcia-Alonso,
+    J. M. Murillo, A. Brogi. <span class="cp-publication-title">Distributing Quantum
+    Computations, by Shots</span>.  21st International Conference on Service Oriented
+    Computing (ICSOC), 2023. <br><a class="btn btn-box btn-box-link" data-toggle="collapse"
+    href="#talk-8" role="button" aria-expanded="false" aria-controls="talk-8">Abstract</a><a
+    class="btn btn-box btn-box-link" href="QBroker.html">Prototype</a><a class="btn
+    btn-box btn-box-link" href="https://github.com/di-unipi-socc/QuantumBroker">Repository</a><a
+    class="btn btn-box btn-box-link" href="assets/posters/Distributing Quantum Programs
+    Shot by Shot.pdf">Poster</a><div class="collapse" id="talk-8">Quantum Process
+    Units (QPUs) are becoming more widely accessible to the public. Nonetheless, they
+    still are very susceptible to noise and feature only a small amount of qubits,
+    making it possible to only execute short quantum computations. Facing this problem,
+    several approaches were proposed to make the most of the present situation, either
+    by distributing the Quantum load, sending different Quantum programs to different
+    QPUs or by distributing Quantum program fragments, by cutting a Quantum program
+    into multiple smaller chunks. Here, we propose a change of perspective. Due to
+    the probabilistic nature of Quantum Mechanics, it is usually required to iterate
+    the execution of a Quantum program numerous times or shots. We suggest considering
+    the shots dimension while determining how to distribute quantum computations.
+    In this paper, we design and develop a methodology to distribute the shots of
+    a Quantum program among many QPUs. Exploiting multiple QPUs improves the resilience
+    to potential QPUs failures. Our solution also enables users to directly encode,
+    through a proposed DSL, their own distribution strategies according to their needs
+    and considered scenarios, offering an expressive and customisable approach. Finally,
+    we showcase a prototype implementation and discuss a life-like use case that can
+    only be addressed by relying on our approach.</div>
+  - '<span class="badge badge-proceedings">&nbsp;&nbsp;</span> G. Bisicchia, J. Garcia-Alonso,
+    J. M. Murillo, A. Brogi. <span class="cp-publication-title">Dispatching Shots
+    Among Multiple Quantum Computers: an Architectural Proposal</span>. 4th IEEE International
+    Conference on Quantum Computing and Engineering (QCE), 2023. <br><a class="btn
+    btn-box btn-box-link" data-toggle="collapse" href="#talk-7" role="button" aria-expanded="false"
+    aria-controls="talk-7">Abstract</a><a class="btn btn-box btn-box-link" href="QBroker.html">Prototype</a><a
+    class="btn btn-box btn-box-link" href="https://github.com/di-unipi-socc/QuantumBroker">Repository</a><a
+    class="btn btn-box btn-box-link" href="assets/slides/Dispatching Shots Among Multiple
+    Quantum Computers an Architectural Proposal.pdf">Slides</a><a class="btn btn-box
+    btn-box-link" href="assets/posters/Distributing Quantum Programs Shot by Shot.pdf">Poster</a><div
+    class="collapse" id="talk-7">Quantum Computing is continuously evolving and expanding.
+    As time goes by, more and more Quantum Computer implementations become available,
+    each of them with their own features. In such a scenario, it can be difficult
+    for developers to identify which Quantum Computer is the most suitable for their
+    needs. In this paper, different from current works presenting strategies to select
+    only one Quantum Computer, we propose a change of perspective. Indeed, due to
+    the probabilistic nature of Quantum Mechanics, performing a computation in a Quantum
+    Computer usually requires iterating the same execution many times (called shots),
+    to eventually end with a distribution of the final results. Leveraging this need,
+    our architecture enables selecting many Quantum Computers for the same circuit
+    and spreading the shots among them. Such a mechanism offers also the possibility
+    for developers to access the partial distributions obtained from the output of
+    a subset of the selected computers. Finally, our architecture proposes to decouple
+    the decision process from the actual execution of such a decision, by enabling
+    developers to encode their specific custom policies.</div>'
   main: Accepted for Publication
   type: box
 - items:

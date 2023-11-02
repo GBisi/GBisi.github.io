@@ -13,16 +13,16 @@ sections:
 - items:
   - Multi-Service Application & Microservices, Cloud-Edge Continuum, IoT Devices,
     Continuous Management & Continuous Reasoning, Declarative Methodologies, QoS-aware
-    Orchestration, Monitoring of Geographically Distributed Systems.
+    Orchestration, Monitoring of Geographically Distributed Systems, Smart Environments
+    & Sustainable Objectives.
   main: Orchestration of Multi-Service Applications over the Cloud-Edge Continuum
   type: box
 - items:
-  - Declarative Frameworks for Smart Environments, Customisable Policies, Goal-oriented
-    methodologies, Management of Contrasting Goals and Actuators Settings, Sustainable
-    Objectives.
-  main: Management of Smart Environments
-  type: box
-- items:
+  - <span class='cp-publication-title'><a class='cp-link' href='QBroker.html'>Quantum
+    Broker</a></span> - A fully customisable and interoperable quantum tool to distribute
+    quantum computations among multiple quantum computers.<br><a class="btn btn-box
+    btn-box-link" href="QBroker.html">Details</a><a class="btn btn-box btn-box-link"
+    href="https://github.com/di-unipi-socc/QuantumBroker">Repository</a>
   - <span class='cp-publication-title'><a class='cp-link' href='cloudWatcher.html'>cloudWatcher</a></span>
     - An open-source prototype tool to perform highly customisable fault and performance
     monitoring across multiple Clouds.<br><a class="btn btn-box btn-box-link" href="cloudWatcher.html">Details</a><a
